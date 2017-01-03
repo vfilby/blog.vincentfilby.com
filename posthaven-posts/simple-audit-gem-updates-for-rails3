@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class='no-js'>
+<head>
+<title>
+'Simple Audit' gem patch for Rails3 - vfilby@gmail.com
+</title>
+
+<script src="http://posthaven-assets.s3.amazonaws.com/assets/modernizr.custom-1c2b9226ae724b41504ca414e3a385d5.js" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="mRYlYSa6T38UhDEXhyytBHLo32w+hkFVpXtxUhomcMI=" name="csrf-token" />
+<meta content='width=device-width,initial-scale=1' name='viewport'>
+<meta content="'Simple Audit' gem patch for Rails3" property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='http://vincentfilby.posthaven.com/simple-audit-gem-updates-for-rails3' property='og:url'>
+<meta content='vfilby@gmail.com' property='og:site_name'>
+<meta content='In Rails3 all strings are escaped by default, in Simple Audit this doubly escapes the html output of the audit history display. While waiting for the main trunk to be updated I forked the main repo...' property='og:description'>
+
+<link href="posts.atom" rel="alternate" title="ATOM" type="application/atom+xml" />
+<link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300|Crimson+Text:400,400italic&amp;subset=latin,latin-ext" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://posthaven-assets.s3.amazonaws.com/assets/blog-216cd592f9aba3e6ae098e40e5c2a6b5.css" media="screen" rel="stylesheet" type="text/css" />
+<style>
+  
+</style>
+
+</head>
+<body id='site_1097'>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=488600357843531";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="posthaven-widget posthaven-widget-post-control" data-url="https://posthaven.com/widget/post_render/control/123334?widget_token=DFcuvab3NdJfoDkGW9qom7zosvijBDsVpuVZKqUoW1k%3D"></div>
+<div id='container'>
+<header id='topbar'>
+<a href="https://posthaven.com/"><div class='posthaven-tab'></div>
+</a></header>
+<div id='flash'>
+</div>
+<header id='header'>
+<h1>
+<a href="index.html">vfilby@gmail.com
+</a></h1>
+<h2>
+
+</h2>
+<div id='back_to_blog'>
+<a href="index.html">&laquo;&nbsp;Back to blog
+</a></div>
+
+
+</header>
+<div id='main_container'>
+<div id='main'>
+<article class='post' data-post-id='123334'>
+<header>
+<div class='post-title'>
+<h2>
+<a href="simple-audit-gem-updates-for-rails3">&#x27;Simple Audit&#x27; gem patch for Rails3</a>
+</h2>
+</div>
+</header>
+<div class='post-body' id='post_body_123334'>
+<p>In Rails3 all strings are escaped by default, in <a href="https://github.com/gtarnovan/simple_audit">Simple Audit</a> this doubly escapes the html output of the audit history display. While waiting for the main trunk to be updated I forked the main repo and created a version that explicitly outputs the audit history in raw format so that it can be displayed.</p>
+<p>If you want to try it you can get my fork of simple audit: <a href="https://github.com/vfilby/simple_audit">https://github.com/vfilby/simple_audit</a></p>
+</div>
+
+<footer class='post-responses' id='post_responses'>
+<div class="posthaven-widget posthaven-widget-post-responses" data-url="https://posthaven.com/widget/post_render/responses/123334?widget_token=DFcuvab3NdJfoDkGW9qom7zosvijBDsVpuVZKqUoW1k%3D"></div>
+</footer>
+</article>
+
+</div>
+<aside id='sidebar'>
+
+<section id='bio'>
+
+</section>
+
+<section class='post-date'>
+<div class='display-date'>
+Posted
+<a href="simple-audit-gem-updates-for-rails3">over 4 years
+ago
+</a><div class='actual-date posthaven-timezone-string' data-posthaven-date-format='MMMM D, YYYY \a\t h:mm A' data-posthaven-date-utc-iso8601='2011-02-28T03:59:00Z'></div>
+</div>
+</section>
+<section class='stats'>
+<span class='stat'>
+<script src="counter/post/simple-audit-gem-updates-for-rails3/count.js?write=true" type="text/javascript"></script>
+</span>
+<span class='measure'>
+views
+</span>
+</section>
+
+</aside>
+</div>
+</div>
+<script>
+  var POSTHAVEN_SCRIBD_PUB_ID = 'pub-93932668657726994124';
+</script>
+<script src="http://www.scribd.com/javascripts/scribd_api.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
+<script async="async" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script src="http://posthaven-assets.s3.amazonaws.com/assets/blog-2391b340d54868efa00f918f8019859e.js" type="text/javascript"></script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38525690-2']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+</script>
+<script>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+             '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</body>
+</html>

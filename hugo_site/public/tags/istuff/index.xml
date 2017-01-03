@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Istuff on Vincent Filby&#39;s Log</title>
+    <link>/10.0.1.40:1313/tags/istuff/index.xml</link>
+    <description>Recent content in Istuff on Vincent Filby&#39;s Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <atom:link href="/10.0.1.40:1313/tags/istuff/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bad Mojo For LSRotator </title>
+      <link>/10.0.1.40:1313/post/bad-mojo-for-lsrotator/</link>
+      <pubDate>Thu, 17 Mar 2011 20:00:00 +0000</pubDate>
+      
+      <guid>/10.0.1.40:1313/post/bad-mojo-for-lsrotator/</guid>
+      <description>&lt;p&gt;My iPhone has become an extension of my car audio system. It is my music
+repository and my navigation system as well as a bunch of other odd jobs.
+The only real annoyance was that album art isn&amp;rsquo;t rotated properly in landscape
+mode&amp;hellip; and in my car my iphone is permanently in landscape mode.&lt;/p&gt;
+
+&lt;p&gt;LSRotator to the rescue&amp;hellip; or not. Let&amp;rsquo;s just say it is the Aquaman of
+iPhone tweaks.&lt;/p&gt;
+
+&lt;p&gt;It crashes&amp;hellip; frequently. things like album art are not centered properly
+and are at least partially off the screen. I can&amp;rsquo;t even add screen shots
+because it won&amp;rsquo;t stay in an un-crashed state long enough.&lt;/p&gt;
+
+&lt;p&gt;Perhaps I am an oddity by my phone isn&amp;rsquo;t heavily tweaked and it was so
+unstable I removed it after 30 minutes. I&amp;rsquo;d say purchase at your own peril.&lt;/p&gt;
+
+&lt;p&gt;[For the geeks, it&amp;rsquo;s an iPhone 4 running 4.2]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

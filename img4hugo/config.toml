@@ -1,0 +1,11 @@
+[img4hugo]
+  size = [ "1920", "1080" ]
+  thumbs = [ "1024", "640", "320" ]
+  tohtml = ['''
+{{`{{<`}} imgdiv class="{{.Class}}" href="{{.Fullresimg}}" alt="{{.Caption}}"
+    src="{{.Thumbnailimg}}" width="{{.Width}}" height="{{.Height}}" {{`>}}`}}
+''', '''
+{{`{{<`}} img id="" class="{{.Class}}" href="{{.Fullresimg}}" alt="{{.Caption}}"
+    src="{{.Thumbnailimg}}" width="{{.Width}}" height="{{.Height}}" {{`>}}`}}
+'''
+]

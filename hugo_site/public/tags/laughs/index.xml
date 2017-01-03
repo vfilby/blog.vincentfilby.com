@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laughs on Vincent Filby&#39;s Log</title>
+    <link>/10.0.1.40:1313/tags/laughs/index.xml</link>
+    <description>Recent content in Laughs on Vincent Filby&#39;s Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <atom:link href="/10.0.1.40:1313/tags/laughs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Best Commercial Ever.</title>
+      <link>/10.0.1.40:1313/post/best-commercial-ever/</link>
+      <pubDate>Wed, 30 Mar 2011 14:09:00 +0000</pubDate>
+      
+      <guid>/10.0.1.40:1313/post/best-commercial-ever/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/eDlaJlb1ezg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Caution: do not use water on accidental hand-fires...</title>
+      <link>/10.0.1.40:1313/post/caution-do-not-use-water-on-accidental-hand-f/</link>
+      <pubDate>Wed, 16 Feb 2011 02:36:00 +0000</pubDate>
+      
+      <guid>/10.0.1.40:1313/post/caution-do-not-use-water-on-accidental-hand-f/</guid>
+      <description>&lt;p&gt;&amp;hellip; instead wave &amp;ldquo;Hi!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://phaven-
+prod.s3.amazonaws.com/files/image_part/asset/217169/4RdOf7CFPIBvpypoEefYrOzb3xE/medium_photo.JPG-20110215-212102.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;galleria&#34;&gt;
+ 
+
+
+&lt;a href=&#34;10.0.1.40:1313/img/photo.JPG-20110215-212102.jpg&#34;&gt;
+    &lt;img 
+        src=&#34;10.0.1.40:1313/img/t320_photo.JPG-20110215-212102.jpg&#34;,
+        data-big=&#34;/img/photo.JPG-20110215-212102.jpg&#34;
+        data-title=&#39;&#39;
+        data-description=&#39;&#39;
+    &gt;
+&lt;/a&gt; 
+&lt;/div&gt;
+&lt;script&gt;
+	(function() { 
+            Galleria.loadTheme(&#39;/galleria_themes/folio/galleria.folio.min.js&#39;);
+            Galleria.run(&#39;.galleria&#39;);
+          }());
+&lt;/script&gt; &lt;/p&gt;
+
+&lt;p&gt;Warnings/notifications on the Roomba Aerovac bin.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

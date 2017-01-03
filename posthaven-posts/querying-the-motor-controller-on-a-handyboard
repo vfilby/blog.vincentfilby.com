@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html class='no-js'>
+<head>
+<title>
+Querying the motor controller on a handyboard - vfilby@gmail.com
+</title>
+
+<script src="http://posthaven-assets.s3.amazonaws.com/assets/modernizr.custom-1c2b9226ae724b41504ca414e3a385d5.js" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="KDuS80N/ab2JQ18TqSp72KYXAD0+3Wdk419Olhu0dlE=" name="csrf-token" />
+<meta content='width=device-width,initial-scale=1' name='viewport'>
+<meta content='Querying the motor controller on a handyboard' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='http://vincentfilby.posthaven.com/querying-the-motor-controller-on-a-handyboard' property='og:url'>
+<meta content='vfilby@gmail.com' property='og:site_name'>
+<meta content='I have written a small library to query the status of the motors and it can be downloaded below.&#x000A;&#x000A;&#x000A;On/Off and Direction&#x000A;There are many built in functions in interactive c to set the motor speed...' property='og:description'>
+
+<link href="posts.atom" rel="alternate" title="ATOM" type="application/atom+xml" />
+<link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300|Crimson+Text:400,400italic&amp;subset=latin,latin-ext" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://posthaven-assets.s3.amazonaws.com/assets/blog-216cd592f9aba3e6ae098e40e5c2a6b5.css" media="screen" rel="stylesheet" type="text/css" />
+<style>
+  
+</style>
+
+</head>
+<body id='site_1097'>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=488600357843531";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="posthaven-widget posthaven-widget-post-control" data-url="https://posthaven.com/widget/post_render/control/123336?widget_token=PBY_9R-3-eUPc3bGcUcV_fyjeGgZ6GQcNygz7iVWs6g%3D"></div>
+<div id='container'>
+<header id='topbar'>
+<a href="https://posthaven.com/"><div class='posthaven-tab'></div>
+</a></header>
+<div id='flash'>
+</div>
+<header id='header'>
+<h1>
+<a href="index.html">vfilby@gmail.com
+</a></h1>
+<h2>
+
+</h2>
+<div id='back_to_blog'>
+<a href="index.html">&laquo;&nbsp;Back to blog
+</a></div>
+
+
+</header>
+<div id='main_container'>
+<div id='main'>
+<article class='post' data-post-id='123336'>
+<header>
+<div class='post-title'>
+<h2>
+<a href="querying-the-motor-controller-on-a-handyboard">Querying the motor controller on a handyboard</a>
+</h2>
+</div>
+</header>
+<div class='post-body' id='post_body_123336'>
+<p>I have written a small library to query the status of the motors and it can be downloaded below.</p>
+<h2>On/Off and Direction</h2>
+<p>There are many built in functions in interactive c to set the motor speed and direction; however, once it has been set there is no built in functionality to query the status of the motors.  It is a relatively easy process to get the status by looking at the motor controller status byte 0x0e.  The status byte (8 bits) uses the top 4 bits to turn the motors on and off and the bottom 4 bits to set direction.  So by looking at the byte: <code>poke( 0x0e )</code> we can see what motors are set and which direction they are turning.  By some simple bit shifting and masking you can easily determine the state of any given motor.</p>
+<h2>Getting Motor Speed</h2>
+<p>Getting the motor speed requires using the data that controlles the Pulse Width Modulation (PWM) algorithms on the Handyboard.  The speeds for motors 0 - 3 are, respectively, 0x22, 0x23, 0x24 and 0x25. By grabbing the value stored at that memory location you can get the speed the motor is set to.  The built in functions let you control the speed using a range of 0 - 100 (in both forward and backward directions) but a stock Handyboard only gives 7 graduations of control.  The 7 speeds are denoted by the 7 following bit patterns:</p>
+<ul>
+<li>0b00000000</li>
+<li>0b00010001</li>
+<li>0b01001001</li>
+<li>0b01010101</li>
+<li>0b01010111</li>
+<li>0b01110111</li>
+<li>0b01111111</li>
+<li>0b11111111</li>
+</ul><p>These two functions make up the library that I wrote for querying the motor controller.  Feel free to use it, abuse it and give it to your friends. </p>
+<p><script src="https://gist.github.com/835575.js"></script></p>
+</div>
+
+<footer class='post-responses' id='post_responses'>
+<div class="posthaven-widget posthaven-widget-post-responses" data-url="https://posthaven.com/widget/post_render/responses/123336?widget_token=PBY_9R-3-eUPc3bGcUcV_fyjeGgZ6GQcNygz7iVWs6g%3D"></div>
+</footer>
+</article>
+
+</div>
+<aside id='sidebar'>
+
+<section id='bio'>
+
+</section>
+
+<section class='post-date'>
+<div class='display-date'>
+Posted
+<a href="querying-the-motor-controller-on-a-handyboard">about 10 years
+ago
+</a><div class='actual-date posthaven-timezone-string' data-posthaven-date-format='MMMM D, YYYY \a\t h:mm A' data-posthaven-date-utc-iso8601='2005-08-04T17:09:00Z'></div>
+</div>
+</section>
+<section class='stats'>
+<span class='stat'>
+<script src="counter/post/querying-the-motor-controller-on-a-handyboard/count.js?write=true" type="text/javascript"></script>
+</span>
+<span class='measure'>
+views
+</span>
+</section>
+
+</aside>
+</div>
+</div>
+<script>
+  var POSTHAVEN_SCRIBD_PUB_ID = 'pub-93932668657726994124';
+</script>
+<script src="http://www.scribd.com/javascripts/scribd_api.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
+<script async="async" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script src="http://posthaven-assets.s3.amazonaws.com/assets/blog-2391b340d54868efa00f918f8019859e.js" type="text/javascript"></script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38525690-2']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+</script>
+<script>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+             '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</body>
+</html>

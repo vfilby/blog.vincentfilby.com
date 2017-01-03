@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class='no-js'>
+<head>
+<title>
+Developer Blogs - vfilby@gmail.com
+</title>
+
+<script src="http://posthaven-assets.s3.amazonaws.com/assets/modernizr.custom-1c2b9226ae724b41504ca414e3a385d5.js" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="hClfuK5PgvolL+AJvqawUCRI6y3VhBQmbqYPLmRvyE0=" name="csrf-token" />
+<meta content='width=device-width,initial-scale=1' name='viewport'>
+<meta content='Developer Blogs' property='og:title'>
+<meta content='article' property='og:type'>
+<meta content='http://vincentfilby.posthaven.com/developer-blogs' property='og:url'>
+<meta content='vfilby@gmail.com' property='og:site_name'>
+<meta content='I am a programmer and have been destined to be so ever since I was a wee lad, barely knee-high to a grasshopper as my grandpappy may have put it. Yet all the hacking, late nights copying code from...' property='og:description'>
+
+<link href="posts.atom" rel="alternate" title="ATOM" type="application/atom+xml" />
+<link href='favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300|Crimson+Text:400,400italic&amp;subset=latin,latin-ext" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://posthaven-assets.s3.amazonaws.com/assets/blog-216cd592f9aba3e6ae098e40e5c2a6b5.css" media="screen" rel="stylesheet" type="text/css" />
+<style>
+  
+</style>
+
+</head>
+<body id='site_1097'>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=488600357843531";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="posthaven-widget posthaven-widget-post-control" data-url="https://posthaven.com/widget/post_render/control/123354?widget_token=kyqLM6SiwSuEZFBk3n9RJWlraM2FIpJPT2ute94yItw%3D"></div>
+<div id='container'>
+<header id='topbar'>
+<a href="https://posthaven.com/"><div class='posthaven-tab'></div>
+</a></header>
+<div id='flash'>
+</div>
+<header id='header'>
+<h1>
+<a href="index.html">vfilby@gmail.com
+</a></h1>
+<h2>
+
+</h2>
+<div id='back_to_blog'>
+<a href="index.html">&laquo;&nbsp;Back to blog
+</a></div>
+
+
+</header>
+<div id='main_container'>
+<div id='main'>
+<article class='post' data-post-id='123354'>
+<header>
+<div class='post-title'>
+<h2>
+<a href="developer-blogs">Developer Blogs</a>
+</h2>
+</div>
+</header>
+<div class='post-body' id='post_body_123354'>
+<p>I am a programmer and have been destined to be so ever since I was a wee lad, barely knee-high to a grasshopper as my grandpappy may have put it.  Yet all the hacking, late nights copying code from C64 programming magazines, dabbling and schooling doesn't really prepare you for the work force.  When I started my career I felt small, green and somewhat terrified.  The work force exerts certain demands and pressures that just can't be duplicated in school and that isn't even considering the managerial/political side of office life.   Programmers that have been in the field for more than a decade have priceless experience, the kind of experience that can't be bought.    Luckily many older and wiser developers are freely sharing advice gathered from years of experience. These blogs are not concerned with the bits of programming, more the aspects of being a programmer and managing programmers.  The all have great information on them so I suggest you fire up your RSS feed readers.</p>
+<h3>Joel on Software</h3>
+<p><a href="http://www.joelonsoftware.com">http://www.joelonsoftware.com</a>  This blog is probably the staple of my programmer diet. I really started paying attention to this blog once I found out Joel was my managers personal hero. Joel is pervasive, if you have searched for anything software related on Google you have probably already read a few articles.    There is a ton of good information here for managers and developers both, and many of Joel's rants/essays have been converted into book form (or you could just browse through the archives). Beware though, I always find that when I start to read articles on Joel's site they usually link to other articles that I want to read... before you know it you are twenty links deep and half your day is gone!</p>
+<ul>
+<li><a href="http://www.joelonsoftware.com/navLinks/fog0000000262.html">Some of Joel's Favourite books</a></li>
+<li><a href="http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html">Guerrilla Guide to Interviewing (version 3.0)</a></li>
+<li><a href="http://www.joelonsoftware.com/articles/BionicOffice.html">http://www.joelonsoftware.com/articles/BionicOffice.html</a></li>
+</ul><h3>Rands In Repose</h3>
+<p><a href="http://www.randsinrepose.com/">http://www.randsinrepose.com/</a>  I found out about this site from <a href="http://www.joelonsoftware.com">Joel</a> when he reviewed by author titled <a href="http://www.managinghumans.com">Managing Humans: Biting and Humorous Tales of a Software Engineer Manager</a>.  I began to explore around his archives and I found some really good info in there, I am sure I will waste much time in the near future catching up on many of his old posts.</p>
+<ul>
+<li><a href="http://www.randsinrepose.com/archives/2007/02/25/a_glimpse_and_a_hook.html">A Glimpse and a Hook</a></li>
+<li><a href="http://www.randsinrepose.com/archives/2003/07/10/nadd.html">N.A.D.D.</a></li>
+</ul><h3>The Codist</h3>
+<p><a href="http://www.thecodist.com">http://www.thecodist.com</a>  The Codist is less pervasive than the aforementioned blogs and is less centered on development wisdom, but contains some good stuff nonetheless.</p>
+<ul>
+<li><a href="http://thecodist.com/fiche/thecodist/article/programmer-job-ads-its-a-bird-its-a-plane-its-supercodercoolman">Programmer Job Ads: It's A Bird! It's A Plane! It's SuperCoderCoolMan!</a></li>
+<li><a href="http://thecodist.com/fiche/thecodist/article/the-stupidity-of-interviews">The Stupidity Of Interviews</a></li>
+</ul>
+</div>
+
+<footer class='post-responses' id='post_responses'>
+<div class="posthaven-widget posthaven-widget-post-responses" data-url="https://posthaven.com/widget/post_render/responses/123354?widget_token=kyqLM6SiwSuEZFBk3n9RJWlraM2FIpJPT2ute94yItw%3D"></div>
+</footer>
+</article>
+
+</div>
+<aside id='sidebar'>
+
+<section id='bio'>
+
+</section>
+
+<section class='post-date'>
+<div class='display-date'>
+Posted
+<a href="developer-blogs">over 8 years
+ago
+</a><div class='actual-date posthaven-timezone-string' data-posthaven-date-format='MMMM D, YYYY \a\t h:mm A' data-posthaven-date-utc-iso8601='2007-07-03T19:31:00Z'></div>
+</div>
+</section>
+<section class='stats'>
+<span class='stat'>
+<script src="counter/post/developer-blogs/count.js?write=true" type="text/javascript"></script>
+</span>
+<span class='measure'>
+views
+</span>
+</section>
+
+</aside>
+</div>
+</div>
+<script>
+  var POSTHAVEN_SCRIBD_PUB_ID = 'pub-93932668657726994124';
+</script>
+<script src="http://www.scribd.com/javascripts/scribd_api.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" type="text/javascript"></script>
+<script async="async" src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script src="http://posthaven-assets.s3.amazonaws.com/assets/blog-2391b340d54868efa00f918f8019859e.js" type="text/javascript"></script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38525690-2']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+</script>
+<script>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+             '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+</body>
+</html>

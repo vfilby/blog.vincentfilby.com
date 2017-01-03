@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drupal on Vincent Filby&#39;s Log</title>
+    <link>/10.0.1.40:1313/tags/drupal/index.xml</link>
+    <description>Recent content in Drupal on Vincent Filby&#39;s Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <atom:link href="/10.0.1.40:1313/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Syntax Highlighting for Drupal</title>
+      <link>/10.0.1.40:1313/post/syntax-highlighting-for-drupal/</link>
+      <pubDate>Sat, 06 Aug 2005 23:36:00 +0000</pubDate>
+      
+      <guid>/10.0.1.40:1313/post/syntax-highlighting-for-drupal/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;UPDATE: This is no longer maintained by me and can be found at &lt;a href=&#34;http://drupal.org/project/geshifilter&#34;&gt;http://drupal.org/project/geshifilter&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am a comp sci student so I often post code on my website. I just happen to
+use a wonderful CMS/blogger called &lt;a href=&#34;http://www.drupal.org&#34;&gt;Drupal&lt;/a&gt; that
+supports filters and all kinds of other goodies. I wanted a filter that would
+take anything posted in &amp;lt;code&amp;gt; tags and automagically apply syntax
+highlighting.&lt;/p&gt;
+
+&lt;h2 id=&#34;geshi-and-codefilter&#34;&gt;GeSHi and Codefilter&lt;/h2&gt;
+
+&lt;p&gt;My solution was to take the existing codefilter module that drupal provides
+and intergrate &lt;a href=&#34;http://qbnz.com/highlighter/&#34;&gt;GeSHi&lt;/a&gt; into it. All in all it is
+very simple, you just have to install the codefilter patch and install genshi.
+Then go to admin -&amp;gt; settings -&amp;gt; codefilter to configure and enable
+genshi. Because it is extremely difficult to determine the language from a
+code fragment you have to do it yourself. There is an option where a default
+language can be configured. But I wanted to make sure that I could use this
+for more than one language so I added some options to the &amp;lt;code&amp;gt; tag.
+The have the code hightlighted in a language other than the default do this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;code lang=&amp;ldquo;html4strict&amp;rdquo;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/code&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you want to turn it off temporarily do this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;code lang=&amp;ldquo;html4strict&amp;rdquo;&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/code&amp;gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The path can be downloaded below. There is an alternative coloring module
+called &lt;a href=&#34;http://www.bluefeet.net/vimcolor_module&#34;&gt;VIM color&lt;/a&gt; which uses the
+coloring schemes from vim. This is arguably more powerful and more tested
+however it requries certain perl modules and access to perl which limits its
+usefulness on windows. My module uses a php library called
+&lt;a href=&#34;http://qbnz.com/highlighter/&#34;&gt;GeSHi&lt;/a&gt; so it will run where ever drupal is
+running. In truth if I would have noticed vim color first I wouldn&amp;rsquo;t have
+bothered writing this, as it is I may change to it at some point in the
+future.&lt;/p&gt;
+
+&lt;h2 id=&#34;supported-languages&#34;&gt;&lt;code&gt;Supported Languages&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Actionscript&lt;/th&gt;
+&lt;th&gt;ADA&lt;/th&gt;
+&lt;th&gt;Apache Log&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;AppleScript&lt;/td&gt;
+&lt;td&gt;ASM&lt;/td&gt;
+&lt;td&gt;ASP&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Bash&lt;/td&gt;
+&lt;td&gt;Blitz&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;C for Macs&lt;/td&gt;
+&lt;td&gt;C#&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;C++&lt;/td&gt;
+&lt;td&gt;CAD DCL&lt;/td&gt;
+&lt;td&gt;CadLisp&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;td&gt;Delphi&lt;/td&gt;
+&lt;td&gt;DIV&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;DOS&lt;/td&gt;
+&lt;td&gt;Eiffel&lt;/td&gt;
+&lt;td&gt;FreeBasic&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;GML&lt;/td&gt;
+&lt;td&gt;HTML&lt;/td&gt;
+&lt;td&gt;Inno&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Java&lt;/td&gt;
+&lt;td&gt;Javascript&lt;/td&gt;
+&lt;td&gt;Lisp&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Lua&lt;/td&gt;
+&lt;td&gt;Microprocessor ASM&lt;/td&gt;
+&lt;td&gt;MySQL&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;NSIS&lt;/td&gt;
+&lt;td&gt;Objective C&lt;/td&gt;
+&lt;td&gt;OCaml&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;OpenOffice&lt;/td&gt;
+&lt;td&gt;BASIC&lt;/td&gt;
+&lt;td&gt;Oracle 8 SQL&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Pascal&lt;/td&gt;
+&lt;td&gt;Perl&lt;/td&gt;
+&lt;td&gt;PHP&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Python&lt;/td&gt;
+&lt;td&gt;Q(uick)BASIC&lt;/td&gt;
+&lt;td&gt;Ruby&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Scheme&lt;/td&gt;
+&lt;td&gt;SDL&lt;/td&gt;
+&lt;td&gt;Basic&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Smarty&lt;/td&gt;
+&lt;td&gt;SQL&lt;/td&gt;
+&lt;td&gt;VB.NET&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Visual BASIC&lt;/td&gt;
+&lt;td&gt;Visual Fox Pro&lt;/td&gt;
+&lt;td&gt;XML&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

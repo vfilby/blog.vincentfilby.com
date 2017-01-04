@@ -9,8 +9,8 @@ from lxml import html
 from lxml import etree
 
 posthaven_dir = "./posthaven-posts"
-hugo_output = "./hugo_site/content/post/"
-#image_output = "./hugo_site/static/img/" Not used since I switched to subdir posts
+hugo_output = "./site/content/post/"
+#image_output = "./site/static/img/" Not used since I switched to subdir posts
 
 
 # Taken from http://stackoverflow.com/a/600612/119527

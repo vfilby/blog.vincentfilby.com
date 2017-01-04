@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food on Vincent Filby&#39;s Log</title>
+    <link>/10.0.1.40:1313/tags/food/index.xml</link>
+    <description>Recent content in Food on Vincent Filby&#39;s Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <atom:link href="/10.0.1.40:1313/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Homemade Kettle Corn</title>
+      <link>/10.0.1.40:1313/post/homemade-kettle-corn/</link>
+      <pubDate>Wed, 07 Sep 2011 04:57:00 +0000</pubDate>
+      
+      <guid>/10.0.1.40:1313/post/homemade-kettle-corn/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://phaven-
+prod.s3.amazonaws.com/files/image_part/asset/217151/HXJweuaGJOAWLoL3JLOqsVZoa6s/medium_photo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;galleria&#34;&gt;
+ 
+
+
+&lt;a href=&#34;10.0.1.40:1313/img/photo.jpg&#34;&gt;
+    &lt;img 
+        src=&#34;10.0.1.40:1313/img/t320_photo.jpg&#34;,
+        data-big=&#34;/img/photo.jpg&#34;
+        data-title=&#39;&#39;
+        data-description=&#39;&#39;
+    &gt;
+&lt;/a&gt;
+
+&lt;/div&gt;
+&lt;script&gt;
+	(function() { 
+            Galleria.loadTheme(&#39;/galleria_themes/folio/galleria.folio.min.js&#39;);
+            Galleria.run(&#39;.galleria&#39;);
+          }());
+&lt;/script&gt; &lt;/p&gt;
+
+&lt;p&gt;Recipe&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1c Popcorn&lt;/li&gt;
+&lt;li&gt;1/3c Corn oil&lt;/li&gt;
+&lt;li&gt;1/2c Sugar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Instructions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Add protective gear. I&amp;rsquo;d recommend long sleeves, rubber gloves and a safety glasses (perhaps a face shield if you have one). Seriously you will have exploding kernels, hot oil splatters and more &amp;ndash; it&amp;rsquo;s like a reenactment of Normandy but with scalding oil.&lt;/li&gt;
+&lt;li&gt;Mix corn and oil in a big pot, I mean big&amp;hellip; like a giant stock pot.&lt;/li&gt;
+&lt;li&gt;Once oil starts to boil add sugar and stir constantly or else the sugar and popcorn will burn.&lt;/li&gt;
+&lt;li&gt;Once popped put popcorn in a bowl, add salt and mix well.&lt;/li&gt;
+&lt;li&gt;Eat kettle corn&lt;/li&gt;
+&lt;li&gt;See a therapist about your chemical addiction to kettle corn.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

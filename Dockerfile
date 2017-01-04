@@ -25,5 +25,5 @@ ADD site/ /usr/share/blog
 
 # By default, serve site
 ENV HUGO_BASE_URL http://localhost:1313
-#CMD hugo server -b ${HUGO_BASE_URL} --bind=0.0.0.0
-CMD bash
+CMD hugo server -b ${HUGO_BASE_URL} --bind=0.0.0.0
+#CMD bash

@@ -153,6 +153,7 @@ gallerythumbnailprefix = "t190_"
         
 # instagram mostly works but is a little broken.
 # only run galleria when there is a gallery on the page
+# Move the gallery configuration so that it is global but overrideable.  
 
 if __name__ == '__main__':
     main()

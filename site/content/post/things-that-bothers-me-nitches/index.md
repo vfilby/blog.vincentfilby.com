@@ -3,7 +3,7 @@ title = "Things that bother me... nitches"
 date = "2011-03-05T19:40:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 In an elevator I recently over heard someone talking about a "nitch market."

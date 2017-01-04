@@ -3,7 +3,7 @@ title = "Overriding Posterous Blockquote Styles"
 date = "2011-06-23T17:25:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 If you have used Posterous for blockquotes you will find that it post
@@ -26,9 +26,9 @@ same style as a long block quote.
 
 Before:
 
-![](/img/Posterous_-_Customizing_Biometric_Me.jpg)
+![](/post/58288379/Posterous_-_Customizing_Biometric_Me.jpg)
 
 After:
 
-![](/img/Biometric_Privacy_Concerns_-_Biometric_Me.jpg)
+![](/post/58288379/Biometric_Privacy_Concerns_-_Biometric_Me.jpg)
 

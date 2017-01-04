@@ -3,7 +3,7 @@ title = "Old Pioneer SX series Receiver"
 date = "2013-03-12T03:24:18Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 I loved the old Pioneer SX vintage receivers, they were sounded great, were
@@ -14,5 +14,5 @@ schematic is helpful for such things.
 Though I no longer have my SX-850 or my SX-950 hopefully this schematic will
 help others.
 
-![](/img/PioneerSX850Schematic.jpg)
+![](/post/old-pioneer-sx-series-receiver/PioneerSX850Schematic.jpg)
 

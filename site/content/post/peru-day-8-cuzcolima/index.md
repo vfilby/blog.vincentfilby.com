@@ -3,7 +3,7 @@ title = "Peru (Day 8) - Cuzco/Lima"
 date = "2011-08-13T13:34:00Z"
 tags = ['Peru', 'travel', 'Knock-Off Candy']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:
@@ -25,17 +25,17 @@ doesn't care for fish and the other is vegetarian.
 Last morning in Cuzco. Breakfast at Jack's Cafe then off to the airport. 
 This pizza/hamburger truck was stationed near our hotel the entire time.
 
-![](/img/IMG_1099.jpg)
+![](/post/peru-day-8-cuzcolima/IMG_1099.jpg)
 
-![](/img/IMG_1098.jpg)
+![](/post/peru-day-8-cuzcolima/IMG_1098.jpg)
 
 Andes fromt the plane
 
-![](/img/IMG_1102.jpg)
+![](/post/peru-day-8-cuzcolima/IMG_1102.jpg)
 
 El Parque del Amor
 
-![](/img/IMG_1111.jpg)
+![](/post/peru-day-8-cuzcolima/IMG_1111.jpg)
 
 and Restaurant La Rosa Nutica (still not catching on to the ocean theme)
 
@@ -46,5 +46,5 @@ file="IMG_1220.jpg" title="" caption=""%}} {{< /gallery >}}
 
 Knock-off Ritz... also known as 'Mini Kraps'!
 
-![](/img/IMG_1219.jpg)
+![](/post/peru-day-8-cuzcolima/IMG_1219.jpg)
 

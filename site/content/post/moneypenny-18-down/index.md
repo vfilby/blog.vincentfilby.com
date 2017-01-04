@@ -3,7 +3,7 @@ title = "Moneypenny, 18 down?"
 date = "2007-04-11T06:09:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 [

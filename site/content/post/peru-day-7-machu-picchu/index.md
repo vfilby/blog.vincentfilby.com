@@ -3,7 +3,7 @@ title = "Peru (Day 7) - Machu Picchu"
 date = "2011-08-13T04:16:00Z"
 tags = ['Peru', 'photography', 'travel']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:
@@ -31,33 +31,33 @@ was glorious.
 The morning hike was ungodly early and wet, perhaps worth it because of the
 rainbow over Machu Picchu as seen from the Sun Gate.
 
-![](/img/IMG_8321.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8321.jpg)
 
 The object of the journey.
 
-![](/img/IMG_8332.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8332.jpg)
 
-![](/img/IMG_8331.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8331.jpg)
 
-![](/img/IMG_8353-8359.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8353-8359.jpg)
 
 It was still quite misty so I had to toy with this image to get even a hint of
 Machu Picchu to show... I swear it is down there!
 
-![](/img/IMG_8326.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8326.jpg)
 
-![](/img/IMG_8319.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8319.jpg)
 
 This rock was carved by the Inca's to match the profile of Machu Picchu (the
 mountain, not the city).
 
-![](/img/IMG_8388.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8388.jpg)
 
 Around Machu Picchu there are signs indicated which route you are on (long,
 medium, short). Apparently in this case the long way involved scaling a few
 walls.  
 
-![](/img/IMG_8392.jpg)
+![](/post/peru-day-7-machu-picchu/IMG_8392.jpg)
 
 Now time to head back to town for beer and pizza.
 

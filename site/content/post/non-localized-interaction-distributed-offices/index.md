@@ -3,7 +3,7 @@ title = "Non-Localized Interaction: Distributed Offices And Visual Portals"
 date = "2011-03-18T17:07:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 In any distributed office environment there is so much lost because the
@@ -31,5 +31,6 @@ to be more meaningful in a way that makes it seem like you are actually there.
 Skype is free and super easy to set up but for true remote control robotic
 glory you'll need to crack out the rovio
 
-![](/img/rovio-angle-camera-lift-large.jpeg)
+![](/post/non-localized-interaction-distributed-offices/rovio-angle-camera-
+lift-large.jpeg)
 

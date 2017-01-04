@@ -3,11 +3,11 @@ title = "Foursquare's 404 It actually Useful!"
 date = "2011-05-30T19:18:52Z"
 tags = ['useful']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 It tells you what the current problem is which is super handy. Kudos
 Foursquare.
 
-![](/img/Foursquare.jpg)
+![](/post/foursquares-404-it-actually-useful/Foursquare.jpg)
 

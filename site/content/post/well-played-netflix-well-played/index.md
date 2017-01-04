@@ -3,7 +3,7 @@ title = "Well played Netflix, well played."
 date = "2011-03-18T18:17:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 Netflix now creating their own content:<http://blog.netflix.com/2011/03

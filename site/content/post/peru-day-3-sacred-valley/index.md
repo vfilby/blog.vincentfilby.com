@@ -3,7 +3,7 @@ title = "Peru (Day 3) - Sacred Valley"
 date = "2011-08-06T03:41:00Z"
 tags = ['travel', 'Peru']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:

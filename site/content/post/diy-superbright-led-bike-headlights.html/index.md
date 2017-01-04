@@ -3,7 +3,7 @@ title = "DIY Superbright LED Bike Headlights"
 date = "2005-06-23T15:33:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 These lights were made almost two years ago, but I thought I would share them
@@ -15,11 +15,11 @@ running with these lights (and two taillights purchased from
 wondering what the heck I am. I have never been given so much space on the
 road as when I am running at night with these lights on
 
-![](/img/traildark.jpg)
+![](/post/diy-superbright-led-bike-headlights.html/traildark.jpg)
 
   
 
-![](/img/traillitup.jpg)
+![](/post/diy-superbright-led-bike-headlights.html/traillitup.jpg)
 
 This is an example of how well these lights light up a dark trail. The
 exposure is the same between both pictures (you can tell because of the
@@ -35,7 +35,7 @@ know you are there, they are not effective for lighting up the road at all.
 Frustrated because of the lack of decent bicycle lights in the world, I
 decided to build my own. Parts used:
 
-![](/img/mr16.jpg)
+![](/post/diy-superbright-led-bike-headlights.html/mr16.jpg)
 
   * Two mr16 superbright led bulds
   * some misc abs fittings from the hardware store
@@ -55,7 +55,7 @@ globes, I took mine off by GENTLY cracking them with a hammer. This should
 leave you with a round premade circuit board that will be easier to build a
 case for than the globe.
 
-![](/img/construction.jpg)
+![](/post/diy-superbright-led-bike-headlights.html/construction.jpg)
 
 With circuit board in hand, head to a hardware store with lots of abs
 fittings. The ones I chose are showin in the picture, they are some sort of
@@ -79,7 +79,7 @@ they would do more good.
 
 
 
-![](/img/frontview.jpg)
+![](/post/diy-superbright-led-bike-headlights.html/frontview.jpg)
 
-![](/img/mounted.jpg)
+![](/post/diy-superbright-led-bike-headlights.html/mounted.jpg)
 

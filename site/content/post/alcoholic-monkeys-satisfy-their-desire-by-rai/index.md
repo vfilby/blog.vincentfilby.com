@@ -3,7 +3,7 @@ title = "Alcoholic monkeys satisfy their desire by raiding bars and stealing una
 date = "2011-08-04T17:06:00Z"
 tags = ['funny', 'interesting']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 Interesting fact: The percentage of monkey teetotallers matches human

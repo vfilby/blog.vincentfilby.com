@@ -3,7 +3,7 @@ title = "Creating a Setup Package for a Custom SSIS Data Flow Component"
 date = "2007-03-22T22:57:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 ## SQL Server's Pipeline Components Folder

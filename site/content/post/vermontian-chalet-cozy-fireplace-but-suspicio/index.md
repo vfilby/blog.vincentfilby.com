@@ -3,8 +3,8 @@ title = "Vermontian chalet: cozy fireplace but suspicious lack or rotisserie chi
 date = "2011-03-24T04:58:02Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/image.jpg)
+![](/post/vermontian-chalet-cozy-fireplace-but-suspicio/image.jpg)
 

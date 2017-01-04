@@ -3,8 +3,8 @@ title = "An egg holder... that's a snowboarder... wearing a hard hat and waving 
 date = "2011-04-05T03:14:58Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/image.jpg)
+![](/post/an-egg-holder-thats-a-snowboarder-wearing-a-h/image.jpg)
 

@@ -3,7 +3,7 @@ title = "Syntax Highlighting for Drupal"
 date = "2005-08-06T23:36:00Z"
 tags = ['Drupal']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 **UPDATE: This is no longer maintained by me and can be found at <http://drupal.org/project/geshifilter>**

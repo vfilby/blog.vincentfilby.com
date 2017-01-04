@@ -3,12 +3,12 @@ title = "Our tree topper"
 date = "2011-12-22T14:31:05Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 [
 
-![](/img/media_httpdistilleryi_ciFhk.jpg)
+![](/post/our-tree-topper/media_httpdistilleryi_ciFhk.jpg)
 
 ](http://instagr.am/p/asRpw/)
 

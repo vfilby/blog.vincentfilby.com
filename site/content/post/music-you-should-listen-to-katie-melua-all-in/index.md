@@ -3,7 +3,7 @@ title = "Music you should listen to: Katie Melua - All In My Head"
 date = "2011-03-07T18:33:00Z"
 tags = ['music']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 Dark and beautiful, a sombre mood and beautiful sadness that I could easily

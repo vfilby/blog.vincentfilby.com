@@ -1,0 +1,24 @@
+{
+    "contentdir": "content",
+    "layoutdir": "layouts",
+    "publishdir": "public",
+
+    "builddrafts": false,
+
+    "baseurl": "http://10.0.1.40:1313",
+
+    "pygmentsuseclasses": true,
+    
+    "theme": "lanyon-hugo",
+
+    "params": {
+        "Title": "Vincent Filby",
+        "Tagline": "Ocassional creations...",
+        "Author": "Vincent Filby",
+        "DateForm": "Jan 2 2006",
+        "Github": {
+            "Url": "http://github.com/tummychow/lanyon-hugo",
+            "Head": "master"
+        }
+    }
+}

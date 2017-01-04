@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Useful on Vincent Filby&#39;s Log</title>
+    <link>/10.0.1.40:1313/tags/useful/index.xml</link>
+    <description>Recent content in Useful on Vincent Filby&#39;s Log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <atom:link href="/10.0.1.40:1313/tags/useful/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Foursquare&#39;s 404 It actually Useful!</title>
+      <link>/10.0.1.40:1313/post/foursquares-404-it-actually-useful/</link>
+      <pubDate>Mon, 30 May 2011 19:18:52 +0000</pubDate>
+      
+      <guid>/10.0.1.40:1313/post/foursquares-404-it-actually-useful/</guid>
+      <description>&lt;p&gt;It tells you what the current problem is which is super handy. Kudos
+Foursquare.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://phaven-
+prod.s3.amazonaws.com/files/image_part/asset/217318/Ou2XbEaY5WeGfaB_EqmW5EDwOHg/medium_Foursquare.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;galleria&#34;&gt;
+ 
+
+
+&lt;a href=&#34;10.0.1.40:1313/img/Foursquare.jpg&#34;&gt;
+    &lt;img 
+        src=&#34;10.0.1.40:1313/img/t320_Foursquare.jpg&#34;,
+        data-big=&#34;/img/Foursquare.jpg&#34;
+        data-title=&#39;&#39;
+        data-description=&#39;&#39;
+    &gt;
+&lt;/a&gt; 
+&lt;/div&gt;
+&lt;script&gt;
+	(function() { 
+            Galleria.loadTheme(&#39;/galleria_themes/folio/galleria.folio.min.js&#39;);
+            Galleria.run(&#39;.galleria&#39;);
+          }());
+&lt;/script&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

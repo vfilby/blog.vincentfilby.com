@@ -1,9 +1,0 @@
-{{ $gallerythumbnailprefix := .Page.Params.gallerythumbnailprefix }}
-
-<a href="/{{ .Page.File.Dir }}/{{ .Get "file" }}">
-    <img 
-        src="/{{ .Page.File.Dir }}/{{ $gallerythumbnailprefix }}{{ .Get "file" }}"
-        data-big="/{{ .Page.File.Dir }}/{{ .Get "file" }}"
-    />
-</a>
-

@@ -3,14 +3,14 @@ title = "Your new favourite band: Black Pistol Fire"
 date = "2011-03-28T19:50:00Z"
 tags = ['music']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 These guys are right up there with Chili Cold Blood.... Trigger On My Fire
 was just added to my snowboarding playlist, hell I added most of the album to
 that playlist.
 
-![](/img/Black_Pistol_Fire.png)
+![](/post/your-new-favourite-band-black-pistol-fire/Black_Pistol_Fire.png)
 
 
 

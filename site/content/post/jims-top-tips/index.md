@@ -3,7 +3,7 @@ title = "Jim's Top Tips"
 date = "2011-08-27T18:58:00Z"
 tags = ['Peru', 'travel', 'Inca Trail']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 Jim was in our group for the Inca Trail and he has an amusing way off relating

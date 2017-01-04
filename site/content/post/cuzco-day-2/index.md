@@ -3,7 +3,7 @@ title = "Peru (Day 2) - Cuzco"
 date = "2011-07-19T02:10:00Z"
 tags = ['travel', 'Peru', 'Knock-Off Candy']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:
@@ -29,7 +29,7 @@ Day 2 Highlights:
 
 Sacsayhuaman
 
-![](/img/IMG_7689-7699.jpg)
+![](/post/cuzco-day-2/IMG_7689-7699.jpg)
 
 They say that Sacsayhuaman is one of the more important archaeological sites
 in Cuzco behind the famous sites such as Machu Picchu. This site exhibits
@@ -51,15 +51,15 @@ Knock-Off Oreos
 
 Unfortunately they had cinnamon in them...ick.
 
-![](/img/IMG_1086.jpg)
+![](/post/cuzco-day-2/IMG_1086.jpg)
 
 Open source is everywhere.
 
-![](/img/IMG_1084.jpg)
+![](/post/cuzco-day-2/IMG_1084.jpg)
 
 Fire in Cuzco seen from above on Sacsayhuamon
 
-![](/img/IMG_7700.jpg)
+![](/post/cuzco-day-2/IMG_7700.jpg)
 
   
 

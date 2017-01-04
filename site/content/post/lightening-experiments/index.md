@@ -3,7 +3,7 @@ title = "Lightening Experiments"
 date = "2011-07-07T03:31:00Z"
 tags = ['photography']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 {{< gallery >}} {{% galleryimage file="IMG_1012.jpeg" title=""

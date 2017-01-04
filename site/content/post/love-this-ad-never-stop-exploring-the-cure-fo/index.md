@@ -3,8 +3,8 @@ title = "Love this ad: \"Never Stop Exploring: The cure for the common: cold.\" 
 date = "2011-03-27T23:12:20Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/image.jpg)
+![](/post/love-this-ad-never-stop-exploring-the-cure-fo/image.jpg)
 

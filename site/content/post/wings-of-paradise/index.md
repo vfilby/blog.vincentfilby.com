@@ -3,7 +3,7 @@ title = "Wings of Paradise"
 date = "2007-03-12T02:54:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 [

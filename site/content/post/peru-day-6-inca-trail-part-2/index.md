@@ -3,10 +3,11 @@ title = "Peru (Day 6) - Inca Trail Part 2"
 date = "2011-08-13T03:54:00Z"
 tags = ['travel', 'Peru', 'photography']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/Inca_Trail_Survival_-_Vincent_Filby.pdf_1_page-1.jpg)
+![](/post/peru-day-6-inca-trail-part-2/Inca_Trail_Survival_-
+_Vincent_Filby.pdf_1_page-1.jpg)
 
 #### Other posts from Peru:
 
@@ -29,27 +30,27 @@ small (Inca sized) but when it was repaired the small stairs where replaced
 with mamoth 12"-18" steps that are hard to climb. Also the constant rock is
 hard on the knees and can make keeping your balance difficult.
 
-![](/img/IMG_8230.jpg)
+![](/post/peru-day-6-inca-trail-part-2/IMG_8230.jpg)
 
 An Inca site, I think it was a lookout and was also used for astronomy.
 
-![](/img/IMG_8103-8105.jpg)
+![](/post/peru-day-6-inca-trail-part-2/IMG_8103-8105.jpg)
 
-![](/img/IMG_8107.jpg)
+![](/post/peru-day-6-inca-trail-part-2/IMG_8107.jpg)
 
 The Inca trail winding up a mountain side.
 
-![](/img/IMG_8137.jpg)
+![](/post/peru-day-6-inca-trail-part-2/IMG_8137.jpg)
 
 Mountain vistas.
 
-![](/img/IMG_8116-8120.jpg)
+![](/post/peru-day-6-inca-trail-part-2/IMG_8116-8120.jpg)
 
-![](/img/IMG_8145-8153.jpg)
+![](/post/peru-day-6-inca-trail-part-2/IMG_8145-8153.jpg)
 
 Dusk at camp.
 
-![](/img/IMG_8276-8282.jpg)
+![](/post/peru-day-6-inca-trail-part-2/IMG_8276-8282.jpg)
 
 More photos
 

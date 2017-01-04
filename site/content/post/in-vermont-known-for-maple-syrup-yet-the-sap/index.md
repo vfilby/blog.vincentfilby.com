@@ -3,8 +3,8 @@ title = "In Vermont, known for maple syrup. Yet the sap taps in the decor are st
 date = "2011-03-24T04:35:08Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/image.jpg)
+![](/post/in-vermont-known-for-maple-syrup-yet-the-sap/image.jpg)
 

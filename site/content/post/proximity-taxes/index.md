@@ -3,7 +3,7 @@ title = "Proximity & Taxes"
 date = "2012-06-11T14:37:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 It is amazing how important proximity to resources really is.

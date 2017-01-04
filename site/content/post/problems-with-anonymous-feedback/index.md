@@ -3,7 +3,7 @@ title = "Problems With Anonymous Feedback"
 date = "2013-06-07T12:31:23Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 [What Anonymous Feedback Will (and Won't) Tell

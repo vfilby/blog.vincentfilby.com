@@ -3,7 +3,7 @@ title = "First Century Ride"
 date = "2005-09-26T05:56:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 [![](http://static.flickr.com/45/179881386_16a7755d10_t.jpg)](http://www.flickr.com/photos/28476306@N00/179881386)

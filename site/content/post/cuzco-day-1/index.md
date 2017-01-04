@@ -3,7 +3,7 @@ title = "Cuzco (Day 1)"
 date = "2011-07-18T03:14:00Z"
 tags = ['travel', 'Peru']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:
@@ -41,17 +41,17 @@ taste what you are drinking.
 
 Low quality panorama from the roof-top terrace of our hotel
 
-![](/img/p226.jpg)
+![](/post/cuzco-day-1/p226.jpg)
 
 Seema cheery and having a springy good time at YYZ
 
-![](/img/p246.jpg)
+![](/post/cuzco-day-1/p246.jpg)
 
 Knocking back a Cusquea at a local Peruvian restaurant
 
-![](/img/IMG_1080.jpg)
+![](/post/cuzco-day-1/IMG_1080.jpg)
 
 Plaza de Armas
 
-![](/img/IMG_7664.jpg)
+![](/post/cuzco-day-1/IMG_7664.jpg)
 

@@ -3,7 +3,7 @@ title = "Automating Package Removal in Debian"
 date = "2005-09-19T16:27:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 This is a quick way to remove packages matching a grep pattern. Use with

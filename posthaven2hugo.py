@@ -46,14 +46,15 @@ def download_and_relink_images( root_element, post_path ):
     # Each "image" in posthaven is a gallery even if it is a single image.  
     # So we look at each gallery individually, if it is a single we'll treat it
     # as a single image and if there is more than one we'll treat it as a gallery
+    print "post_path:", post_path
     cars = root_element.xpath( "//div[@class='posthaven-gallery-car']")
     print " > Found {0} galleries...".format( len(cars) )
     for car in cars:
         print " > Gallery ", car
         cdr = car.getnext()
         
-        print "car", etree.tostring( car )
-        print "cdr", etree.tostring( cdr )
+        #print "car", etree.tostring( car )
+        #print "cdr", etree.tostring( cdr )
 
         car_images = car.xpath( ".//*[@data-orig-src]/@data-orig-src" )
         cdr_images = cdr.xpath( ".//*[@data-orig-src]/@data-orig-src" )
@@ -76,9 +77,12 @@ def download_and_relink_images( root_element, post_path ):
             #single image
             print " > converting single image..."
             image_filename = os.path.basename( image )
+            print " > image_filename: ", image_filename
+            web_abs_path = os.path.join( "/", post_path[post_path.index('post'):], image_filename )
+            print " > web_abs_path: ", web_abs_path
             
             img_element = car.xpath( ".//img[@class='posthaven-gallery-image']")[0]
-            img_element.attrib['src'] = "/img/{0}".format(image_filename)
+            img_element.attrib['src'] = web_abs_path
             
             # Since we modified the car, keep it.
             cdr.drop_tree()
@@ -123,7 +127,7 @@ def main():
         
         # Convert HTML to markdown
         content = etree.tostring( tree.xpath('//div[@class="post-body"]')[0], pretty_print=True )
-        print content
+        #print content
         markdown_content = html2text.html2text(content)
         
         # Short codes are urlencoded, we need to undo that so they function as expected
@@ -137,7 +141,7 @@ title = "{0}"
 date = "{1}"
 tags = {2}
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++\n""".format( title.replace('"','\\"'), date, tags )
         
         print "Writing", target_filepath
@@ -148,7 +152,7 @@ gallerythumbnailprefix = ""
         target.close()
         
 # instagram mostly works but is a little broken.
-# image thumbs need to be generated for performance
+# only run galleria when there is a gallery on the page
 
 if __name__ == '__main__':
     main()

@@ -3,10 +3,10 @@ title = "Homemade Kettle Corn"
 date = "2011-09-07T04:57:00Z"
 tags = ['recipes', 'food']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/photo.jpg)
+![](/post/homemade-kettle-corn/photo.jpg)
 
 Recipe
 

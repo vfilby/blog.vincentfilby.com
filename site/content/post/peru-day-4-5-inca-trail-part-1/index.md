@@ -3,10 +3,11 @@ title = "Peru (Day 4-5) - Inca Trail Part 1"
 date = "2011-08-09T02:37:00Z"
 tags = ['Peru', 'hiking', 'travel']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/Inca_Trail_Survival_-_Vincent_Filby.pdf_1_page.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/Inca_Trail_Survival_-
+_Vincent_Filby.pdf_1_page.jpg)
 
 #### Other posts from Peru:
 
@@ -28,7 +29,7 @@ Along the way you get to see or pass through a number of inca temples or
 settlements. This one is far off the pass so we could only see it from a
 distance. 
 
-![](/img/IMG_7943.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_7943.jpg)
 
 The second day on the trail is a brutal day. You get up and hike uphil for
 5-6 hours until you get to the pass (remember that this is at a high altitude
@@ -37,41 +38,41 @@ steps; even with the pass within reach there was no energy to push forward.
 
 Here is a stitched pano of the trail leading up from the valley to the pass.
 
-![](/img/IMG_8031-8036.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_8031-8036.jpg)
 
 From the pass the scenery is beautiful (when you are not shrouded in cloud),
 here is a view of the Andes from the pass.  
 
-![](/img/IMG_8016-8019.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_8016-8019.jpg)
 
 We made it!  
 
-![](/img/IMG_8051.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_8051.jpg)
 
 To give you an idea how high we were, we were just below the snow line. Snow
 is unusual in this pass and is mainly due to recent rainfall. 
 
-![](/img/IMG_8005.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_8005.jpg)
 
 After a lengthy break at Dead Woman's Pass -- and the feeling that the hard
 work is over -- we are presented with the Gringo Killer, we have to descent
 600m down a rocky Inca Trail with _giant_ steps. This proved almost as
 difficult as the climb to the pass. I present to you, the Gringo Killer!
 
-![](/img/IMG_8053-8059.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_8053-8059.jpg)
 
 One amazing and complete unexpected surprise was the night sky. Due to the
 altitude and the lack of light polution you see an amazing assortment of stars
 and the Milky Way is extradinairely clear. Apparently there are many solar
 observatories just further south in Chile.
 
-![](/img/IMG_7987.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_7987.jpg)
 
 So far the food from Peru Treks has been amazing. I find it amusing that
 despite having to carry all the tents and supplies they made room for the
 chef's hats. Props to Luis for great meals.
 
-![](/img/IMG_7954.jpg)
+![](/post/peru-day-4-5-inca-trail-part-1/IMG_7954.jpg)
 
 {{< gallery >}} {{% galleryimage file="IMG_7932.jpg" title=""
 caption=""%}} {{% galleryimage file="IMG_7953.jpg" title="" caption=""%}} {{%

@@ -3,7 +3,7 @@ title = "Tired of futzing with rdebug on rails 1.9.3? Solution: gem 'debugger'"
 date = "2012-04-18T15:48:00Z"
 tags = ['geek']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 I have been cautiously sticking with ruby 1.9.2-p290 for all development so

@@ -3,7 +3,7 @@ title = "Maz digs the 'board"
 date = "2011-10-05T03:36:44Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 [Download p187.mov](https://phaven-

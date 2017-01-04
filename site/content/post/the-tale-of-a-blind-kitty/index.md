@@ -3,7 +3,7 @@ title = "The Tale of a Blind Kitty"
 date = "2007-07-01T12:48:00Z"
 tags = []
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
 [![Franklin

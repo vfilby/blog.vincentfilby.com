@@ -3,10 +3,10 @@ title = "Inca Trail Post Mortem & Gear List"
 date = "2011-08-20T02:20:00Z"
 tags = ['Peru', 'hiking', 'travel']
 galleryprefix = ""
-gallerythumbnailprefix = ""
+gallerythumbnailprefix = "t190_"
 +++
 
-![](/img/IMG_7680.jpg)
+![](/post/inca-trail-post-mortem-gear-list/IMG_7680.jpg)
 
 #### Other posts from Peru:
 
@@ -98,7 +98,7 @@ What I should have brought
 
 Trekking pole tips before &amp; after:
 
-![](/img/IMG_1238.jpg)
+![](/post/inca-trail-post-mortem-gear-list/IMG_1238.jpg)
 
-![](/img/IMG_1195_-_Version_2.jpg)
+![](/post/inca-trail-post-mortem-gear-list/IMG_1195_-_Version_2.jpg)
 

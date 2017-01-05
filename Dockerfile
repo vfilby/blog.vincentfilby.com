@@ -1,29 +1,17 @@
-FROM debian:wheezy
+FROM alpine:latest
+RUN apk add --update hugo bash nginx imagemagick && rm -rf /var/cache/apk/*
+RUN mkdir -p /tmp/nginx/client-body
 
-# Install pygments (for syntax highlighting) 
-RUN apt-get -qq update \
-	&& DEBIAN_FRONTEND=noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates \
-	&& rm -rf /var/lib/apt/lists/*
+COPY nginx/nginx.conf /etc/nginx/nginx.conf
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
-# Download and install hugo
-ENV HUGO_VERSION 0.18
-ENV HUGO_BINARY hugo_${HUGO_VERSION}-64bit.deb
+# Build static site
+RUN mkdir -p /tmp/hugo-site
+COPY site /usr/share/hugo/site
+#RUN cd /tmp/hugo-site && hugo -d /usr/share/nginx/html
 
-ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINARY} /tmp/hugo.deb
-RUN dpkg -i /tmp/hugo.deb \
-	&& rm /tmp/hugo.deb
-
-# Create working directory
-RUN mkdir /usr/share/blog
-WORKDIR /usr/share/blog
-
-# Expose default hugo port
-EXPOSE 1313
-
-# Automatically build site
-ADD site/ /usr/share/blog
-
-# By default, serve site
-ENV HUGO_BASE_URL http://localhost:1313
-CMD hugo server -b ${HUGO_BASE_URL} --bind=0.0.0.0
 #CMD bash
+WORKDIR /usr/share/hugo/site
+EXPOSE 1313
+CMD ["hugo", "server", "--bind=0.0.0.0"]
+#CMD ["nginx", "-g", "daemon off;"]

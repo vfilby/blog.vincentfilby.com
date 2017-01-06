@@ -5,7 +5,7 @@
 
     "builddrafts": false,
 
-    "baseurl": "http://10.0.1.40:1313",
+    "baseurl": "http://blog.vincentfilby.com",
 
     "pygmentsuseclasses": true,
     

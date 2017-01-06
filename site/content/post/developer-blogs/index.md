@@ -2,8 +2,6 @@
 title = "Developer Blogs"
 date = "2007-07-03T19:31:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 I am a programmer and have been destined to be so ever since I was a wee lad,

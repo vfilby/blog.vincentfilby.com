@@ -2,8 +2,6 @@
 title = "Printing to a Networked HP LaserJet 1100 from Intel OS X"
 date = "2005-11-30T22:11:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 I have two Mac OS X computers here with my HP LaserJet 1100 printer networked

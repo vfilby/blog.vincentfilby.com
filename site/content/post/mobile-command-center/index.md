@@ -2,8 +2,6 @@
 title = "Mobile Command Center"
 date = "2011-03-01T22:45:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 Experimenting with the iPad as a portable second monitor. Seems to work well,

@@ -2,8 +2,6 @@
 title = "The Dollars and Sense of App Store Pricing"
 date = "2013-06-08T01:42:41Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 In [this excellent talk by Michael Jurewitz](http://jury.me/blog/2013/4/2

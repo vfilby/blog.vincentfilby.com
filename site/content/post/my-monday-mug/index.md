@@ -2,8 +2,6 @@
 title = "My Monday Mug"
 date = "2011-12-19T18:09:15Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 [

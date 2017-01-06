@@ -2,8 +2,6 @@
 title = "Academically Challenged"
 date = "2007-07-12T05:06:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 _**Warning: **If you are considering grad school you may not want to base your

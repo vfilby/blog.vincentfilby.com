@@ -2,8 +2,6 @@
 title = "This is a terrible post-it note idea. "
 date = "2011-12-21T16:13:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 Seriously... I always end up writing upside down on it. And it flails like

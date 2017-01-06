@@ -2,8 +2,6 @@
 title = "Go CRTC!"
 date = "2013-06-03T19:26:59Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 ... is one of the many things that I never thought I'd say. But, it looks

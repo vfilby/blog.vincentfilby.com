@@ -2,8 +2,6 @@
 title = "Rural Roots"
 date = "2013-04-02T20:56:07Z"
 tags = ['Toastmasters']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 This is a verbatim copy of my first Toastmasters speech... the ice breaker.

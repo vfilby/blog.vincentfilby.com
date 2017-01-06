@@ -2,8 +2,6 @@
 title = "Handcrafted Christmas card for my Ganesh loving wife"
 date = "2011-12-29T02:46:10Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 [

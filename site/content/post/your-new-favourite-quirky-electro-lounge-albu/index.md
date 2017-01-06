@@ -2,8 +2,6 @@
 title = "Your new favourite quirky, electro-lounge album: Caro Emerald"
 date = "2011-08-16T02:23:17Z"
 tags = ['music']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 A brilliant combination of (my favourites) jazzy lounge, beats and a touch of

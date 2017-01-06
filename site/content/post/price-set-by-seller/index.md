@@ -2,8 +2,6 @@
 title = "Price Set By Seller"
 date = "2013-05-26T14:09:26Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 I always enjoyed the fact that kindle books were a tad cheaper and had a more

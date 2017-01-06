@@ -2,8 +2,6 @@
 title = "Peru (Day 8) - Cuzco/Lima"
 date = "2011-08-13T13:34:00Z"
 tags = ['Peru', 'travel', 'Knock-Off Candy']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:

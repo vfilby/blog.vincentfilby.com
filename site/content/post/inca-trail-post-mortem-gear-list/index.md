@@ -2,8 +2,6 @@
 title = "Inca Trail Post Mortem & Gear List"
 date = "2011-08-20T02:20:00Z"
 tags = ['Peru', 'hiking', 'travel']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 ![](/post/inca-trail-post-mortem-gear-list/IMG_7680.jpg)

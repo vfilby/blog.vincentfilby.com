@@ -2,8 +2,6 @@
 title = "The infamous cat burrito"
 date = "2011-12-22T23:45:19Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 [

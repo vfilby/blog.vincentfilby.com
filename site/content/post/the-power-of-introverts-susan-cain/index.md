@@ -2,8 +2,6 @@
 title = "Introverted and Silently Proud"
 date = "2013-06-06T20:18:14Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 I have always found myself on the outside in business, it's a world dominated

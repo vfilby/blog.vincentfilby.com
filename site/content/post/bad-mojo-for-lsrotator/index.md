@@ -2,8 +2,6 @@
 title = "Bad Mojo For LSRotator "
 date = "2011-03-17T20:00:00Z"
 tags = ['iStuff']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 My iPhone has become an extension of my car audio system. It is my music

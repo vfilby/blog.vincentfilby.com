@@ -2,8 +2,6 @@
 title = "Non-Localized Interaction: Distributed Offices And Visual Portals"
 date = "2011-03-18T17:07:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 In any distributed office environment there is so much lost because the

@@ -2,8 +2,6 @@
 title = "Convert Audible Files to mp3"
 date = "2005-11-15T23:09:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 > **Update April 13th, 2007**  

@@ -2,8 +2,6 @@
 title = "'Simple Audit' gem patch for Rails3"
 date = "2011-02-28T03:59:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 In Rails3 all strings are escaped by default, in [Simple

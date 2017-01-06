@@ -2,8 +2,6 @@
 title = "Some fbconnect permission requests scare me"
 date = "2011-02-26T01:43:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 I love the idea of one universal login but whenever I see Facebook Connect I

@@ -2,8 +2,6 @@
 title = "Electric Purple Sky"
 date = "2011-07-04T05:44:16Z"
 tags = ['Lightening', 'photography']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 ![](/post/electric-purple-sky/IMG_1012.jpeg)

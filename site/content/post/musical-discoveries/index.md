@@ -2,8 +2,6 @@
 title = "Six musical gems you should check out"
 date = "2011-02-23T00:47:00Z"
 tags = ['music']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 **Datarock - Fa Fa Fa**

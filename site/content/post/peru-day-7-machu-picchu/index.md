@@ -2,8 +2,6 @@
 title = "Peru (Day 7) - Machu Picchu"
 date = "2011-08-13T04:16:00Z"
 tags = ['Peru', 'photography', 'travel']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:

@@ -2,8 +2,6 @@
 title = "Querying the motor controller on a handyboard"
 date = "2005-08-04T17:09:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 I have written a small library to query the status of the motors and it can be

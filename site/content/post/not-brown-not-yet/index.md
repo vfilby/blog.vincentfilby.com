@@ -2,8 +2,6 @@
 title = "Not brown... not yet."
 date = "2011-02-27T02:04:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 Creative use of [Behr ColorSmart](http://itunes.apple.com/us/app/colorsmart-

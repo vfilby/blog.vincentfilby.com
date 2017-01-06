@@ -2,8 +2,6 @@
 title = "Sell Your Skills - Toastmasters Table Topics"
 date = "2013-05-28T02:20:19Z"
 tags = ['Toastmasters']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 I used this [Table Topics](http://en.wikipedia.org/wiki/Table_topic "Link:

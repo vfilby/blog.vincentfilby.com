@@ -2,8 +2,6 @@
 title = "Cuzco (Day 1)"
 date = "2011-07-18T03:14:00Z"
 tags = ['travel', 'Peru']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 #### Other posts from Peru:

@@ -2,8 +2,6 @@
 title = "New favourite beer "
 date = "2011-12-25T02:06:43Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 [

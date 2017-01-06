@@ -2,8 +2,6 @@
 title = "Chicago in a Soap Bubble"
 date = "2007-03-09T18:37:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 [![](http://farm1.static.flickr.com/140/318898832_572948af55.jpg)](http://www.flickr.com/photos/vfilby/318898832/

@@ -2,8 +2,6 @@
 title = "Our tree topper"
 date = "2011-12-22T14:31:05Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 [

@@ -13,12 +13,13 @@
 
     "params": {
         "Title": "Vincent Filby",
-        "Tagline": "Ocassional creations...",
+        "Tagline": "...",
         "Author": "Vincent Filby",
         "DateForm": "Jan 2 2006",
         "Github": {
             "Url": "http://github.com/tummychow/lanyon-hugo",
             "Head": "master"
-        }
+        },
+        "gallerythumbnailprefix": "t190_"
     }
 }

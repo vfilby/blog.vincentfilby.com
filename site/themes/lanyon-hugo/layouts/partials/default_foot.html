@@ -5,8 +5,10 @@
 
     <script>
       (function() { 
-        Galleria.loadTheme('/galleria_themes/folio/galleria.folio.min.js');
-        Galleria.run('.galleria');
+        if( $('.galleria').length > 0 ) {
+          Galleria.loadTheme('/galleria_themes/folio/galleria.folio.min.js');
+          Galleria.run('.galleria');
+        }
       }());
     </script>
   </body>

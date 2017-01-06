@@ -2,8 +2,6 @@
 title = "Peru (Day 6) - Inca Trail Part 2"
 date = "2011-08-13T03:54:00Z"
 tags = ['travel', 'Peru', 'photography']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 ![](/post/peru-day-6-inca-trail-part-2/Inca_Trail_Survival_-

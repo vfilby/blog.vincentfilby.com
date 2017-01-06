@@ -2,8 +2,6 @@
 title = "Html popups are pure evil"
 date = "2011-03-08T19:34:00Z"
 tags = ['rant']
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 Seriously, they are as unholy as the evil spawn of &lt;blink&gt; and

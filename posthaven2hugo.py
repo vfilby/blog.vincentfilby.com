@@ -140,8 +140,6 @@ def main():
 title = "{0}"
 date = "{1}"
 tags = {2}
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++\n""".format( title.replace('"','\\"'), date, tags )
         
         print "Writing", target_filepath
@@ -151,9 +149,12 @@ gallerythumbnailprefix = "t190_"
         target.write( target_content.encode( "ascii", "ignore" ) )
         target.close()
         
-# instagram mostly works but is a little broken.
-# only run galleria when there is a gallery on the page
-# Move the gallery configuration so that it is global but overrideable.  
+# instagram mostly works but is a little broken. (fix manually())
+# Fix the peru posts
+# fix not brown not yet
+# Fix the posts with .pdf attachments
+# Remove my worthless drivel
+# Add more recent posts from beta (from ghost)
 
 if __name__ == '__main__':
     main()

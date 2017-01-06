@@ -2,8 +2,6 @@
 title = "Overriding Posterous Blockquote Styles"
 date = "2011-06-23T17:25:00Z"
 tags = []
-galleryprefix = ""
-gallerythumbnailprefix = "t190_"
 +++
 
 If you have used Posterous for blockquotes you will find that it post

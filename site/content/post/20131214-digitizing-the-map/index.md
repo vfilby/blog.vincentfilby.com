@@ -12,7 +12,7 @@ I wanted to maximize detail, so each map is combined from 28-33 different images
 Each sheet was photographed on a black background.  I used a speedlight on either side of the map pointing at a 45° angle with a white umbrella
  
  
-![]( {{< localresource layout.png >}})
+![]( {{< localresource "layout.png" >}})
 ![](/post/20131214-digitizing-the-map/setup.jpg)
  
 ### Processing

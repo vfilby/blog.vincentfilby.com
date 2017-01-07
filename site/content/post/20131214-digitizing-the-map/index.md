@@ -13,17 +13,17 @@ Each sheet was photographed on a black background.  I used a speedlight on eithe
  
  
 ![]( {{< localresource "layout.png" >}})
-![](/post/20131214-digitizing-the-map/setup.jpg)
+![]({{< localresource "setup.jpg" >}})
  
 ### Processing
  
 I found in my tests that Photoshop CC did and excellent job of stitching the images together so long as I overlapped them by about half.
  
 Selected single image:
-![](/post/20131214-digitizing-the-map/1-photo.png)
+![]({{< localresource "1-photo.png" >}})
  
 One map combined from 33 images:
-![](/post/20131214-digitizing-the-map/1-tile.png)
+![]({{< localresource "1-tile.png" >}})
  
 ### The Final Product
  
@@ -33,7 +33,7 @@ Compressed as a JPG the file is about 50MB and is 29665 x 27536 pixels
  
 Excluding the black background the image totals approximately 600 megapixels.
  
-![](/post/20131214-digitizing-the-map/all-tiles.png)
+![]({{< localresource "all-tiles.png" >}})
  
 ### Next Step
  

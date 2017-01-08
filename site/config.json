@@ -21,5 +21,9 @@
             "Head": "master"
         },
         "gallerythumbnailprefix": "t190_"
+    },
+    
+    "taxonomies": {
+      "tag": "tags"
     }
 }

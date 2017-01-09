@@ -24,6 +24,6 @@
     },
     
     "taxonomies": {
-      "tag": "tags"
+      "Tag": "Tags"
     }
 }

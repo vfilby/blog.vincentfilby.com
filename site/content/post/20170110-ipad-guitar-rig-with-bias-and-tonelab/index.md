@@ -1,3 +1,8 @@
++++
+title = "iPad Guitar Rig with Bias FX and ToneLab LE"
+date = "20137-01-10"
+tags = ['Music']
++++
 It's been awhile since I kept my guitar amps out and ready for use.  Digital sound modelling is pretty good so they sit stowed away in storage and I have been contemplating getting rid of them for years.  
 
 I used main stage for awhile in conjunction with a midi capable floor board but more recently I have been playing with ![Bias FX by Postive Grid](https://www.positivegrid.com/bias-fx/), an iPad app that does everything I need and it sounds pretty good.

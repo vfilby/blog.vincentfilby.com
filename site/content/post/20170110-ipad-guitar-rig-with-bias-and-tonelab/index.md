@@ -1,6 +1,6 @@
 +++
 title = "iPad Guitar Rig with Bias FX and ToneLab LE"
-date = "20137-01-10"
+date = "2017-01-10"
 tags = ['Music']
 +++
 It's been awhile since I kept my guitar amps out and ready for use.  Digital sound modelling is pretty good so they sit stowed away in storage and I have been contemplating getting rid of them for years.  

@@ -7,6 +7,11 @@
   <div class="sidebar-item">
     <p>A collection of nonsense put forth by <a href="http://www.vincentfilby.com">Vincent Filby</a>.  
       Skim, peruse or contemplate at your own peril.</p>
+      <ul>
+        <li><a href="http://www.vincentfilby.com">@the inter-tubes</a></li>
+        <li><a href="http://www.twitter.com/vfilby">@twitter</a></li>
+        <li><a href="http://github.com/vfilby">@github</a></li>
+      </ul>
   </div>
 
   <nav class="sidebar-nav">
@@ -20,9 +25,14 @@
       {{ end }}
     {{ end }}
 
-    <a class="sidebar-nav-item" href="http://www.vincentfilby.com">@the inter-tubes</a>
-    <a class="sidebar-nav-item" href="http://www.twitter.com/vfilby">@twitter</a>
-    <a class="sidebar-nav-item" href="http://github.com/vfilby">@github</a>
+    
+    <a class="sidebar-nav-item" href="http://github.com/vfilby">Tags</a>
+    <ul id="all-tags">
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+      {{ end }}
+    </ul>
+    
   </nav>
 
   <div class="sidebar-item">

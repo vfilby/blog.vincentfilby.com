@@ -1,5 +1,5 @@
 +++
-title = "iPad Guitar Rig with Bias FX and ToneLab LE"
+title = "Bias FX on an iPad with ToneLab LE"
 date = "2017-01-10"
 tags = ['Music']
 +++

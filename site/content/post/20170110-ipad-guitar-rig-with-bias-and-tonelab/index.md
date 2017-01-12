@@ -7,7 +7,7 @@ It's been awhile since I kept my guitar amps out and ready for use.  Digital sou
 
 I used main stage for awhile in conjunction with a midi capable floor board but more recently I have been playing with ![Bias FX by Postive Grid](https://www.positivegrid.com/bias-fx/), an iPad app that does everything I need and it sounds pretty good.
 
-# Wiring
+### Wiring
 
 To make this all work I use:
 
@@ -20,7 +20,7 @@ The trick is to use the USB 3.0 camera adapter and connect it to a small USB hub
 
 ![]( {{< localresource "asset.jpg" >}})
 
-# Configuring Midi
+### Configuring Midi
 
 The Vox ToneLab LE has two modes: 1) preset mode where you select preconfigured sounds, and 2) FX mode where you can control various parts of the current preset.  Preset mode works out of the box and controls Bias FX in exactly the way you'd expect by switching presets and banks.  FX mode also works but you have to configure the global or preset midi settings. 
 
@@ -28,13 +28,13 @@ The most obvious way to setup midi in Bias FX is through the settings, but that 
 
 Couple things you'll need to do: configure one generic preset on the ToneLab (I set the switch under the expression pedal to control toggling modulation and control as a tap tempo with the rest at defaults).  Write this preset into as many presets as you use in Bias, that way you'll have consistent midi control regardless of the preset.
 
-# Conclusion
+### Conclusion
 
 Overall I like the setup, it is very versatile easy to setup/pack and very portable. So far I have switched entirely from using Mainstage to using Bias FX for my day to day playing.
 
 The floorboard & midi integration makes this just as usable as my previous amp/effect configuration.
 
-# Sounds
+### Sounds
 
 {{< clyp s20cdyaa >}}
 

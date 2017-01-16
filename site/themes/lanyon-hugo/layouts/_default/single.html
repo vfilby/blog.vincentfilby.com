@@ -14,5 +14,23 @@
   {{ .Content }}
 </div>
 
+<h2>You may also like...</h2>
+<ul>
+  {{ $page_link := .Permalink }}
+  {{ $tags := .Params.tags }}
+  {{ range .Site.Pages.ByDate.Reverse }}
+    {{ $page := . }}
+    {{ $has_common_tags := intersect $tags .Params.tags | len | lt 0 }}
+    {{ if and $has_common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$i") 3)}}
+      {{ $.Scratch.Add "$i" 1 }}
+      <li class="relatedPost">
+        <a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+{{ template "_internal/disqus.html" . }}
 
 {{ partial "default_foot.html" . }}
+

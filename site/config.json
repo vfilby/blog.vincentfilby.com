@@ -5,9 +5,13 @@
 
     "builddrafts": false,
 
-    "baseurl": "http://blog.vincentfilby.com",
+    "baseurl": "http://www.vincentfilby.com",
 
     "pygmentsuseclasses": true,
+    
+    "disqusShortname": "blog-vincentfilby-com",
+    
+    "googleAnalytics": "UA-41541920-1",
     
     "theme": "lanyon-hugo",
 
@@ -21,6 +25,10 @@
             "Head": "master"
         },
         "gallerythumbnailprefix": "t190_"
+    },
+    
+    "permalinks": {
+      "pages": "/:title/"
     },
     
     "taxonomies": {

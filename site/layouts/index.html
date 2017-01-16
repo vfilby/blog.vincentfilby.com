@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	
+	<title>Vincent Filby</title>
+	<meta name="description" content="I am a techie; I have worked for small 2 person startups and I have worked for the tech giants.  
+
+I am a photographer that loves to reframe the mundane in ways to twist the mind." />
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">	
+	<link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/vincentfilby.css" />
+
+	<script src="/assets/js/jquery.ba-throttle-debounce.js"></script>
+	<script src="/assets/js/background-check.min.js"></script>
+
+</head>
+
+<body class="home-template">
+	<header id="site-head" style="background-image: url(/content/images/2013/Dec/Unknown.jpeg)">
+		<div class="vertical">
+			<div id="site-head-content" class="inner">
+
+			
+				<h1 class="blog-title">Vincent Filby</h1>
+				<h2 class="blog-description">I am a techie; I have worked for small 2 person startups and I have worked for the tech giants.   I am a photographer that loves to reframe the mundane in ways to twist the mind.</h2>
+				<a class='btn first'>Take a tour</a>
+				<a class='btn postlink' item='General Geekery'>General Geekery</a>
+				<a class='btn postlink' item='Photography'>Photography</a>
+				<a class='btn last'>Cut to the chase</a><br>
+				<i id='header-arrow' class="icon-angle-down"></i>
+			</div>
+		</div>
+
+	</header>
+
+
+	<main class="content" role="main">
+
+		<div class='fixed-nav'></div>
+
+		<div class='post-holder'>
+			<article class="post first">
+				<header class="post-header">
+					<h2 class="post-title">Me</h2>
+				</header>
+				<section class="post-content"></section>
+			</article>
+		</div>
+
+	
+		<div class='post-holder'>
+			<article class="post">
+				<header class="post-header">
+					<h2 class="post-title">About Me</h2>
+				</header>
+				<section class="post-content">
+					<p>
+						<div id="resume" class="col-2">	
+						<div class="col-header">Résumé</div>
+							<p>I thrive at the nexus of creativity and technology; just a little more on the technology side.</p>
+							<p style="text-align: left; padding-left: 30px;"><i class="fa fa-arrow-circle-right"></i> <a href="/content/images/Vince&#32;Filby&#32;-&#32;20130414.pdf">View my résumé</a></p>
+							<p style="text-align: left; padding-left: 30px;"><i class="fa fa-arrow-circle-right"></i> <a href="http://www.linkedin.com/in/vfilby">Connect on LinkedIn <i class="fa fa-linkedin-square"></i></a></p>
+						</div>	
+
+						<div id="education" class="col-2">	
+							<div class="col-header">Education</div>
+							<p>I graduated from the <a href="http://www.uoguelph.ca">University of Guelph</a> class of 2002 with  B. Computer Science.	Natural learning, robotics and software engineering were my specialties.</p>
+						</div>
+
+						<div style="clear: both; margin-top: 20px;"></div>	
+
+						<div style="text-align: center;">I have worked at:</div>  
+
+						<p><img class="companies" src="/content/images/companies.png" /></p>
+					</p>
+					
+					<h3>Recent Blog Posts</h3>
+					<ul class="recent-posts">
+						{{ range first 5 (where .Site.Pages "Section" "post") }}
+							<li>
+								<a href="{{ .Permalink }}">{{ .Title }}</a> <span class="description">{{ .Description }}</span>
+								<span class="date">{{ .Date.Format "Jan 2 2006" }}</span>
+							</li>
+						{{ end }}
+					</ul>
+				</section>
+			</article>
+		</div>
+		
+	
+		<div class='post-holder'>
+			<article class="post">
+				<header class="post-header">
+					<h2 class="post-title">Photography</h2>
+				</header>
+				<section class="post-content">
+					<p>
+						<p>
+							<a href="http://portfolio.vincentfilby.com" class="fa fa-camera-retro"> Portfolio</a>
+							<a href="http://500px.com/vfilby" class="fa fa-camera-retro"> 500px</a>
+							<a href="http://instagram.com/vfilby" class="fa fa-instagram"> Instagram</a>
+						</p>
+
+						<p>
+							<a href="http://portfolio.vincentfilby.com/selections"  class="thumbnail" ><img src="/content/images/photos/violin.jpeg"/></a>
+							<a href="http://portfolio.vincentfilby.com/selections"	 class="thumbnail" ><img src="/content/images/photos/glass.jpeg"/></a>
+							<a href="http://portfolio.vincentfilby.com/selections" class="thumbnail" ><img src="/content/images/photos/lightning.jpeg" /></a>
+							<a href="http://portfolio.vincentfilby.com/selections" class="thumbnail" ><img src="/content/images/photos/lily.jpeg" /></a>
+							<a href="http://portfolio.vincentfilby.com/selections" class="thumbnail" ><img src="/content/images/photos/coral.jpeg"/></a>
+							<a href="http://portfolio.vincentfilby.com/selections" class="thumbnail" ><img src="/content/images/photos/fish.jpeg"/></a>
+						</p>
+						<p>
+							<div style="clear: both;" />
+						</p>
+					</p>
+				</section>
+			</article>
+		</div>
+
+	
+		<div class='post-holder'>
+			<article class="post">
+				<header class="post-header">
+					<h2 class="post-title">Projects</h2>
+				</header>
+				<section class="post-content">
+					<p>
+						<div class="project">  
+							<div class="title">Thamesville: 1925</div>
+							<div class="url"><a href='http://thamesville1925.vincentfilby.com'>http://thamesville1925.vincentfilby.com</a></div>
+							<p>Years ago I was given copies of a detailed survey map of my home town. The scale was 50 feet per inch and totalled about 36sqft over three sheets.  Local historians have annotated nearly every building detailing who lived there, what the building was for and other humorous bits.</p>
+							<p>I recently found these maps and am working to preserve them digitally and post them for all to see.</p>
+						</div>
+						<div class="project">  
+							<div class="title">Urban Fruit Project</div>
+							<div class="url"><a href='http://www.urbanfruitproject.com'>http://www.urbanfruitproject.com</a></div>
+							<p>There are tons of fruit bearing and useful plants located int he public domain.	If you find something useful you can log it so you can go back to it later!	 Or you can share it with others.</p>
+						</div>
+					</p>
+				</section>
+			</article>
+		</div>
+
+	
+		<div class='post-holder'>
+			<article class="post last">
+				<header class="post-header">
+					<h2 class="post-title">Contact</h2>
+				</header>
+				<section class="post-content">
+					<p>
+						<div class="col-2">
+							<div class="method">
+								<a href="/post">
+									<i class="fa fa-globe fa-fw icon"></i>
+									<div class="info">
+										<span class="type">Blog</span>
+										<span class="data">www.vincentfilby.com/post</span>
+									</div>
+								</a>
+							</div>
+						
+							<div class="method">
+								<i class="fa fa-envelope fa-fw icon"></i>
+								<div class="info">
+									<span class="type">E-Mail</span>
+									<span class="data">First initial + last name at a popular email service by Google.</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-2">	 
+							<div class="method">
+								<a href="http://www.linkedin.com/in/vfilby">
+									<i class="fa fa-linkedin-square fa-fw icon"></i>
+									<div class="info">
+										<span class="type">LinkedIn</span>
+										<span class="data">www.linkedin.com/in/vfilby</span>
+									</div>
+								</a>
+							</div>
+							<div class="method">
+								<a href="http://www.twitter.com/vfilby">
+									<i class="fa fa-twitter-square fa-fw icon"></i>
+									<div class="info">
+										<span class="type">Twitter</span>
+										<span class="data">@vfilby</span>	   
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div style="clear: both;"/>	 
+						<div class="social">  
+							<a class="fa fa-github	fa-fw" href="http://www.github.com/vfilby"></a>
+							<a class="fa fa-stack-overflow	fa-fw icon" href="http://stackexchange.com/users/12359/vfilby"></a>
+							<a class="fa fa-camera-retro fa-fw icon" href="http://www.500px.com/vfilby"></a>
+							<a class="fa fa-instagram fa-fw icon" href="http://www.instagram.com/vfilby"></a>
+							<a class="fa fa-flickr fa-fw icon" href="http://www.flickr.com/photos/vfilby"></a>
+							<a class="fa fa-google-plus fa-fw icon" href="https://plus.google.com/+VinceFilby"></a>
+							<a class="fa fa-adn fa-fw icon" href="https://app.net/vfilby"></a>
+						</div>
+
+						<div style="clear: both" />
+				</section>
+			</article>
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<div class="inner">
+			<p>Made by Vincent Filby with
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-square fa-stack-2x "></i>
+					<i class="fa fa-terminal fa-stack-1x	fa-inverse"></i>
+				</span>
+				on a
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-square fa-stack-2x"></i>
+					<i class="fa fa-apple fa-stack-1x fa-inverse"></i>
+				</span>
+			</p>
+			<p>Copyright © 2013 Vincent Filby</p>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/assets/js/index.js"></script>
+	<script type="text/javascript" src="/assets/js/vincentfilby.js"></script>
+
+</body>
+</html>

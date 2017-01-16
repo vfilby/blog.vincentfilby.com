@@ -1,0 +1,284 @@
+@import url(http://fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+.col-2 {
+	float: left;
+	width: 46%;
+	padding-right: 2%;
+}
+
+.col-header {
+	text-align: center;
+
+}
+
+img.companies {
+	max-width:100% !important;
+	height:auto;
+	display:block;
+}
+
+#ph-me {
+	background: url(../../content/images/Vince-5754.jpg) no-repeat center center;
+	
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+		
+	min-height: 225px;
+		
+}
+
+#ph-me .post-title {
+	display: none;
+
+}
+
+
+#ph-about-me {
+  background: url(../../content/images/code.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+	
+	font-family: "Raleway", sans-serif;
+}
+
+#ph-about-me p {
+	font-size: 1.5rem;
+	line-height: 20px;
+}
+
+#ph-about-me h2.post-title {
+	font-family: "Droid Serif", serif;
+	font-weight: 400;
+	font-size: 6rem;
+}
+
+#ph-about-me h3 {
+	font-family: "Droid Serif", serif;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+#ph-about-me .recent-posts {
+	font-size: .9em;
+}
+
+#ph-about-me .recent-posts .description {
+	color: #666;
+}
+
+#ph-about-me .recent-posts .date {
+	color: #aaa;
+}
+
+#ph-about-me .recent-posts .date::before {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	display: inline-block;
+	text-decoration: inherit;
+	padding-left: .5em;
+	padding-right: .2em;
+	content: '\f133';
+
+}
+
+
+#ph-blog {
+  background: url(../../content/images/map.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	font-family: "Raleway", sans-serif;
+}
+
+#ph-blog h2.post-title {
+	font-family: "Droid Serif", serif;
+	font-weight: 400;
+	font-size: 6rem;
+}
+
+#ph-blog .title {
+	font-family: "Droid Serif", serif;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+
+#ph-photography {
+		background-color: #000;
+		color: #FFF;
+	  background: url(../../content/images/reef.jpg) no-repeat center center; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+		
+		font-family: "Raleway", sans-serif;
+}
+
+#ph-photography a {
+	text-decoration: none;
+	padding-right: 4rem;
+}
+
+#ph-photography h2.post-title {
+	font-family: "Raleway", cursive;
+	font-weight: 200;
+	font-size: 6rem;
+}
+
+#ph-photography a.thumbnail { 
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#ph-projects {
+  background: url(../../content/images/map.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	font-family: "Raleway", sans-serif;
+}
+
+#ph-projects h2.post-title {
+	font-family: "Droid Serif", serif;
+	font-weight: 400;
+	font-size: 6rem;
+}
+
+#ph-projects .title {
+	font-family: "Droid Serif", serif;
+	font-weight: 400;
+	font-size: 3rem;
+}
+
+
+/********************
+ * Contact
+ */
+
+#ph-contact {
+	background: url(../../content/images/stamp.jpg) no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	color: white;
+	font-family: "Raleway", sans-serif;
+}
+
+#ph-contact h2.post-title, #ph-contact h1 {
+	font-family: "Raleway", cursive;
+	font-weight: 200;
+	font-size: 6rem;
+}.method.method {
+	padding-bottom: 10px;
+}
+
+#ph-contact a {
+	text-decoration: none;
+}
+
+.social {
+	font-size: 5rem;
+	text-align: center;
+	color: #666;
+	line-height: 80px;
+	padding-top: 100px;
+}
+
+.method .icon {
+	float: left;
+	font-size: 4rem;
+	padding-top: 5px
+}
+
+.method .info {
+	padding-top: 10px;
+	padding-left: 50px;
+	max-width: 300px;
+}
+
+.method span.type {
+	display: block;
+	font-size: 2rem;
+	line-height: 15px;
+	font-weight: bold;
+}
+
+.method span.data {
+	display: block;
+	color: #B6B6B6;
+	font-size: 1.5rem;
+	line-height: 15px;
+	margin-top: 5px;
+    	transition: all ease 0.3s;
+    	-webkit-transition: all ease 0.3s;
+    	-moz-transition: all ease 0.3s;
+}
+
+a:hover > .info > span.data {
+    color: #86c440;
+}
+
+.fn-item.background--dark {
+	color: #FFF;
+	opacity: 1;
+}
+
+.fn-item.background--light {
+	color: #000;
+	opacity: 1;
+}
+
+
+@media only screen and (max-width: 1130px) {
+  .fn-item.background--dark {
+      color: #000;
+  }
+	
+	.fixed-nav { 
+		opacity: 0.90;
+	}
+}
+
+
+
+.site-footer {
+	background-color: #303030;
+	color: #6e6e6e;
+}
+
+@media only screen and (max-width: 500px) {
+	#ph-photography h2.post-title {
+		font-size: 5rem;
+	}
+	
+	.post {
+		padding-top: 0;
+	}
+	
+	#ph-photography a.thumbnail {
+		float: none;
+	}
+	
+	.col-2 {
+		width: 100%;
+	}
+}

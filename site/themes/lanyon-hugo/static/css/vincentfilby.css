@@ -1,0 +1,20 @@
+div.arc {
+	font-size: .8em;
+	border: 1px solid grey;
+	background: #EEE;
+	padding: 10px;
+	border-radius: 7px; 
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px; 
+	margin-bottom: 1em;
+}
+
+div.arc h2 {
+	margin: 0;
+	margin-bottom: 3px;
+	font-size: 1.2em;
+}
+
+div.arc ul {
+	margin: 0;
+}

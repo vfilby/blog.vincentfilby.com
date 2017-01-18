@@ -10,7 +10,30 @@
       {{ end }}
     </ul>
   </span>
-  
+	
+  {{ $page_link := .Permalink }}
+	{{ range .Params.arcs }}
+		<div class="arc">
+		<h2>Other stories in {{ . }}</h2>
+		<ul>
+			{{ $arc := . }}
+		  {{ range $.Site.Pages.ByDate }}
+		    {{ $page := . }}
+		    {{ $has_common_arc := in $page.Params.arcs $arc }}
+		    {{ if and $has_common_arc (ne $page_link $page.Permalink)}}
+		      <li class="relatedPost">
+		        <a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a>
+		      </li>
+				{{ else if $has_common_arc }}
+		      <li class="relatedPost">
+		        {{ $page.Title | markdownify }}
+		      </li>
+		    {{ end }}
+		  {{ end }}
+		</ul>
+	</div>
+	{{ end }}
+	
   {{ .Content }}
 </div>
 

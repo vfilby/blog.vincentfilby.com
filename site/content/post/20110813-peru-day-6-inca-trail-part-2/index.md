@@ -2,21 +2,12 @@
 title = "Peru (Day 6) - Inca Trail Part 2"
 date = "2011-08-13T03:54:00Z"
 tags = ['travel', 'Peru', 'photography']
+arcs = ['Peru 2011']
 +++
 
 ![]({{< localresource "Inca_Trail_Survival_-_Vincent_Filby.pdf_1_page-1.jpg"
 >}})
 
-#### Other posts from Peru:
-
-  * [Peru (Day 1) - Cuzco](http://www.vincentfilby.com/cuzco-day-1)
-  * [Peru (Day 2) - Cuzco](http://www.vincentfilby.com/cuzco-day-2)
-  * [Peru (Day 3) - Sacred Valley](http://www.vincentfilby.com/peru-day-3-sacred-valley)
-  * [Peru (Day 4-5) - Inca Trail Part 1](http://www.vincentfilby.com/peru-day-4-5-inca-trail-part-1)
-  * Peru (Day 6) - Inca Trail Part 2
-  * [Peru (Day 7) - Machu Picchu](http://www.vincentfilby.com/peru-day-7-machu-picchu)
-  * [Peru (Day 8) - Cusco/Lima](http://www.vincentfilby.com/peru-day-8-cuzcolima)
-  * [Inca Trail Post Mortem &amp; Gear List](http://www.vincentfilby.com/inca-trail-post-mortem-gear-list)
 
 After a [brutal day 2](http://www.vincentfilby.com/peru-day-4-5-inca-trail-
 part-1), the gentle-ish rolling hills on the 3rd day was a walk in the park. 

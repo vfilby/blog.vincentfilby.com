@@ -17,7 +17,7 @@
 
     "params": {
         "Title": "Vincent Filby",
-        "Tagline": "...",
+        "Tagline": "/",
         "Author": "Vincent Filby",
         "DateForm": "Jan 2 2006",
         "Github": {
@@ -32,6 +32,8 @@
     },
     
     "taxonomies": {
-      "Tag": "Tags"
+      "Tag": "Tags",
+			"Arc": "Arcs",
+			"Category": "Categories"
     }
 }

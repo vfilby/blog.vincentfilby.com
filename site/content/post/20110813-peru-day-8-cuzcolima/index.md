@@ -2,18 +2,10 @@
 title = "Peru (Day 8) - Cuzco/Lima"
 date = "2011-08-13T13:34:00Z"
 tags = ['Peru', 'travel', 'Knock-Off Candy']
+arcs = ['Peru 2011']
 +++
 
-#### Other posts from Peru:
 
-  * [Peru (Day 1) - Cuzco](http://www.vincentfilby.com/cuzco-day-1)
-  * [Peru (Day 2) - Cuzco](http://www.vincentfilby.com/cuzco-day-2)
-  * [Peru (Day 3) - Sacred Valley](http://www.vincentfilby.com/peru-day-3-sacred-valley)
-  * [Peru (Day 4-5) - Inca Trail Part 1](http://www.vincentfilby.com/peru-day-4-5-inca-trail-part-1)
-  * [Peru (Day 6) - Inca Trail Part 2](http://www.vincentfilby.com/peru-day-6-inca-trail-part-2)
-  * [Peru (Day 7) - Machu Picchu](http://www.vincentfilby.com/peru-day-7-machu-picchu)
-  * Peru (Day 8) - Cusco/Lima
-  * [Inca Trail Post Mortem &amp; Gear List](http://www.vincentfilby.com/inca-trail-post-mortem-gear-list)
 
 The last day of the trip involved an 8 hour layover in Lima, then on to home.
 To make the best of the layover we decided to stroll around Miraflores and

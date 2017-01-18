@@ -2,6 +2,7 @@
 title = "Thamesville 1925 Surveyor's Map"
 date = "2013-12-06"
 tags = ['Thamesville 1925', 'Projects']
+arcs = ['Thamesville 1925 Map']
 +++
 
 Years ago during a school project I came across a surveyors map of my home town that had been marked up by historians to indicate what the buildings were used for and any _quirks_ that the owners might have exhibited.  

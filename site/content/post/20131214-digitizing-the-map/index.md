@@ -2,6 +2,7 @@
 title = "Digitizing The Map"
 date = "2013-12-14T22:45:45Z"
 tags = ['Thamesville 1925', 'Projects']
+arcs = ['Thamesville 1925 Map']
 +++
 I want to preserve these maps digitally and here is the how I did it.
  

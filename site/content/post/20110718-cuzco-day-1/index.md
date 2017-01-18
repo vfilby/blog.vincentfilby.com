@@ -2,18 +2,8 @@
 title = "Cuzco (Day 1)"
 date = "2011-07-18T03:14:00Z"
 tags = ['travel', 'Peru']
+arcs = ['Peru 2011']
 +++
-
-#### Other posts from Peru:
-
-  * Peru (Day 1) - Cuzco
-  * [Peru (Day 2) - Cuzco](http://www.vincentfilby.com/cuzco-day-2)
-  * [Peru (Day 3) - Sacred Valley](http://www.vincentfilby.com/peru-day-3-sacred-valley)
-  * [Peru (Day 4-5) - Inca Trail Part 1](http://www.vincentfilby.com/peru-day-4-5-inca-trail-part-1)
-  * [Peru (Day 6) - Inca Trail Part 2](http://www.vincentfilby.com/peru-day-6-inca-trail-part-2)
-  * [Peru (Day 7) - Machu Picchu](http://www.vincentfilby.com/peru-day-7-machu-picchu)
-  * [Peru (Day 8) - Cusco/Lima](http://www.vincentfilby.com/peru-day-8-cuzcolima)
-  * [Inca Trail Post Mortem &amp; Gear List](http://www.vincentfilby.com/inca-trail-post-mortem-gear-list)
 
 Today is the first day of our Andean adventure, the ultimate goal is to have a
 springy good time while trekking the 45km from near Ollantaytambo to Machu

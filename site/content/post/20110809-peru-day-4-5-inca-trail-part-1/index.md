@@ -2,21 +2,12 @@
 title = "Peru (Day 4-5) - Inca Trail Part 1"
 date = "2011-08-09T02:37:00Z"
 tags = ['Peru', 'hiking', 'travel']
+arcs = ['Peru 2011']
 +++
 
 ![]({{< localresource "Inca_Trail_Survival_-_Vincent_Filby.pdf_1_page.jpg"
 >}})
 
-#### Other posts from Peru:
-
-  * [Peru (Day 1) - Cuzco](http://www.vincentfilby.com/cuzco-day-1)
-  * [Peru (Day 2) - Cuzco](http://www.vincentfilby.com/cuzco-day-2)
-  * [Peru (Day 3) - Sacred Valley](http://www.vincentfilby.com/peru-day-3-sacred-valley)
-  * Peru (Day 4-5) - Inca Trail Part 1
-  * [Peru (Day 6) - Inca Trail Part 2](http://www.vincentfilby.com/peru-day-6-inca-trail-part-2)
-  * [Peru (Day 7) - Machu Picchu](http://www.vincentfilby.com/peru-day-7-machu-picchu)
-  * [Peru (Day 8) - Cusco/Lima](http://www.vincentfilby.com/peru-day-8-cuzcolima)
-  * [Inca Trail Post Mortem &amp; Gear List](http://www.vincentfilby.com/inca-trail-post-mortem-gear-list)
 
 This is a photo journal of the first two days on the inca trail including day
 2 -- a 5 hour up hill hike with an altitude delta of 1.2km. Here are a few

@@ -2,6 +2,7 @@
 title = "Integrating an iPod with a Factory Delco Deck"
 date = "2006-10-12"
 tags = []
+arcs = ['Panasonic iPod Integration']
 description = "description" 
 +++
 

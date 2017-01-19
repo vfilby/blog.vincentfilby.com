@@ -32,8 +32,8 @@
     },
     
     "taxonomies": {
-      "Tag": "Tags",
-			"Arc": "Arcs",
-			"Category": "Categories"
+      "tag": "tags",
+			"arc": "arcs",
+			"category": "categories"
     }
 }

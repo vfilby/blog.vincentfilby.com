@@ -1,13 +1,14 @@
 +++
 title = "Querying the motor controller on a handyboard"
 date = "2005-08-04T17:09:00Z"
-tags = []
+tags = ['Robotics', 'Code']
+categories = ['Technology']
 +++
 
 I have written a small library to query the status of the motors and it can be
 downloaded below.
 
-## On/Off and Direction
+### On/Off and Direction
 
 There are many built in functions in interactive c to set the motor speed and
 direction; however, once it has been set there is no built in functionality to
@@ -18,7 +19,7 @@ to set direction. So by looking at the byte: `poke( 0x0e )` we can see what
 motors are set and which direction they are turning. By some simple bit
 shifting and masking you can easily determine the state of any given motor.
 
-## Getting Motor Speed
+### Getting Motor Speed
 
 Getting the motor speed requires using the data that controlles the Pulse
 Width Modulation (PWM) algorithms on the Handyboard. The speeds for motors 0 -

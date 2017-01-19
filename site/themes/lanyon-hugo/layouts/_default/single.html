@@ -1,56 +1,56 @@
 {{ partial "default_head.html" . }}
 
 <div class="post">
-  <h1 class="post-title">{{ .Title }}</h1>
-  <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
-  <span class="post-tags">
-    <ul class="tags">
-      {{ range .Params.tags }}
-        <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
-      {{ end }}
-    </ul>
-  </span>
+	<h1 class="post-title">{{ .Title }}</h1>
+	<span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+	<span class="post-tags">
+		<ul class="tags">
+			{{ range .Params.tags }}
+				<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+			{{ end }}
+		</ul>
+	</span>
 	
-  {{ $page_link := .Permalink }}
+	{{ $page_link := .Permalink }}
 	{{ range .Params.arcs }}
 		<div class="arc">
 		<h2>Other stories in {{ . }}</h2>
 		<ul>
 			{{ $arc := . }}
-		  {{ range $.Site.Pages.ByDate }}
-		    {{ $page := . }}
-		    {{ $has_common_arc := in $page.Params.arcs $arc }}
-		    {{ if and $has_common_arc (ne $page_link $page.Permalink)}}
-		      <li class="relatedPost">
-		        <a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a>
-		      </li>
+			{{ range $.Site.Pages.ByDate }}
+				{{ $page := . }}
+				{{ $has_common_arc := in $page.Params.arcs $arc }}
+				{{ if and $has_common_arc (ne $page_link $page.Permalink)}}
+					<li class="relatedPost">
+						<a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a>
+					</li>
 				{{ else if $has_common_arc }}
-		      <li class="relatedPost">
-		        {{ $page.Title | markdownify }}
-		      </li>
-		    {{ end }}
-		  {{ end }}
+					<li class="relatedPost">
+						{{ $page.Title | markdownify }}
+					</li>
+				{{ end }}
+			{{ end }}
 		</ul>
 	</div>
 	{{ end }}
 	
-  {{ .Content }}
+	{{ .Content }}
 </div>
 
 <h2>You may also like...</h2>
 <ul>
-  {{ $page_link := .Permalink }}
-  {{ $tags := .Params.tags }}
-  {{ range .Site.Pages.ByDate.Reverse }}
-    {{ $page := . }}
-    {{ $has_common_tags := intersect $tags .Params.tags | len | lt 0 }}
-    {{ if and $has_common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$i") 3)}}
-      {{ $.Scratch.Add "$i" 1 }}
-      <li class="relatedPost">
-        <a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a>
-      </li>
-    {{ end }}
-  {{ end }}
+	{{ $page_link := .Permalink }}
+	{{ $tags := .Params.tags }}
+	{{ range .Site.Pages.ByDate.Reverse }}
+		{{ $page := . }}
+		{{ $has_common_tags := intersect $tags .Params.tags | len | lt 0 }}
+		{{ if and $has_common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$i") 3)}}
+			{{ $.Scratch.Add "$i" 1 }}
+			<li class="relatedPost">
+				<a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a>
+			</li>
+		{{ end }}
+	{{ end }}
 </ul>
 
 {{ template "_internal/disqus.html" . }}

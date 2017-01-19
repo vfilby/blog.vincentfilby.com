@@ -1,7 +1,7 @@
 +++
 title = "DIY Superbright LED Bike Headlights"
 date = "2005-06-23T15:33:00Z"
-tags = []
+tags = ['Cycling', 'Sports', 'DIY']
 +++
 
 These lights were made almost two years ago, but I thought I would share them

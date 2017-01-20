@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/tummychow/lanyon-hugo/blob/master/LICENSE.md"
 description = "Lanyon-Hugo is a theme designed for blogging."
 homepage = "https://github.com/tummychow/lanyon-hugo"
-tags = ["blog",]
+tags = ['Photography'] = ["blog",]
 features = ["blog", ]
 min_version = 0.14
 

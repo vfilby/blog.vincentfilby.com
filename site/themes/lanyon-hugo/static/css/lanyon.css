@@ -566,57 +566,26 @@ a.pagination-item:hover {
  * Post Tags
  *
  */
-span.post-tags {
-  display: block;
-  max-width: 300px;
-  float: right;
-  position: relative;
-  top: -60px;
+
+span.post-date {
+	/*display: inline;*/
 }
 
+span.post-tags {
+  display: inline;
+	margin-left: 1em;
+
+}
 
 .post .tags {
 	margin: 0;
 	padding: 0;
 	list-style:none;
+	display: inline;
 }
 
-.tags li, .tags a {
-	float:left;
-  margin-top: .2em;
-	height:32px;
-	line-height:32px;
-	position:relative;
-	font-size:18px;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-	}
-  
-.tags a{
-	margin-left: 12px;
-	padding:0 10px 0 24px;
-	background: #aeaeae;
-	color:#fff;
-	text-decoration:none;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;	
-	border-radius:4px;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;	
-	border-radius:4px;	
-
-	} 
-
-
-.tags a:after{
-	content:"";
-	position:absolute;
-	top:10px;
-	left:10px;
-	float:left;
-	width:8px;
-	height:8px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
-	background:#fff;
+ul.tags li {
+		margin-left: .25em;
+	display: inline;
 }
+

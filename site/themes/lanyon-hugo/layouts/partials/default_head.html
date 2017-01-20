@@ -13,9 +13,19 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="/" title="Home">{{ .Site.Params.Title }}</a>
-            <small>{{ .Site.Params.Tagline }}</small>
-						<a href="/post/">Posts</a>
+						{{ $baseurl := .Site.BaseURL }}
+						{{ $fullurl := print ( .RelPermalink | replaceRE "/post" "" | replaceRE "[^/]+/$" "") }}
+						  <a href="/" class="crumb">Vincent Filby</a>
+							<small>/</small>
+							<a href="/post" class="crumb">Blog</a>
+							<small>/</small>
+						  {{ range $index, $element := split $fullurl "/" }}
+						    {{ $.Scratch.Add "path" $element }}
+						      {{ if ne $element "" }}
+						      <a href='{{ $baseurl }}{{ $.Scratch.Get "path" }}'>{{ if isset $.Site.Data.titles . }} {{ index $.Site.Data.titles . }} {{ else }} {{ title . }} {{ end }}</a>
+						      {{ $.Scratch.Add "path" "/" }}
+						      {{ end }}
+						  {{ end }}
           </h3>
         </div>
       </div>

@@ -1,7 +1,7 @@
 +++
 title = "Cuzco (Day 1)"
 date = "2011-07-18T03:14:00Z"
-tags = ['travel', 'Peru']
+tags = ['Travel', 'Peru']
 arcs = ['Peru 2011']
 +++
 

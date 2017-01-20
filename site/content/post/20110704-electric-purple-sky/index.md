@@ -1,7 +1,7 @@
 +++
 title = "Electric Purple Sky"
 date = "2011-07-04T05:44:16Z"
-tags = ['Lightening', 'photography']
+tags = ['Lightning', 'Photography']
 +++
 
 ![]({{< localresource "IMG_1012.jpeg" >}})

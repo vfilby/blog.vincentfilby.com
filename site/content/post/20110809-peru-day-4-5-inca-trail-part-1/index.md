@@ -1,7 +1,7 @@
 +++
 title = "Peru (Day 4-5) - Inca Trail Part 1"
 date = "2011-08-09T02:37:00Z"
-tags = ['Peru', 'hiking', 'travel']
+tags = ['Peru', 'Hiking', 'Travel']
 arcs = ['Peru 2011']
 +++
 

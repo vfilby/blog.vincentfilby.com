@@ -1,7 +1,7 @@
 +++
 title = "Music you should listen to: Katie Melua - All In My Head"
 date = "2011-03-07T18:33:00Z"
-tags = ['music']
+tags = ['Music']
 +++
 
 Dark and beautiful, a sombre mood and beautiful sadness that I could easily

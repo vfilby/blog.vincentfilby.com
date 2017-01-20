@@ -1,7 +1,7 @@
 +++
 title = "Peru (Day 7) - Machu Picchu"
 date = "2011-08-13T04:16:00Z"
-tags = ['Peru', 'photography', 'travel']
+tags = ['Peru', 'Photography', 'Travel']
 arcs = ['Peru 2011']
 +++
 

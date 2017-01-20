@@ -1,7 +1,7 @@
 +++
 title = "The Status Quo Is Awesome, Because... Because."
 date = "2011-03-18T18:10:31Z"
-tags = ['rant']
+tags = ['Rants']
 +++
 
 This is a response to the article [Paying With Your Phone Is Awesome,

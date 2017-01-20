@@ -1,7 +1,7 @@
 +++
 title = "Your new favourite band: Black Pistol Fire"
 date = "2011-03-28T19:50:00Z"
-tags = ['music']
+tags = ['Music']
 +++
 
 These guys are right up there with Chili Cold Blood.... Trigger On My Fire

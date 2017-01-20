@@ -28,7 +28,7 @@
     
     <a class="sidebar-nav-item" href="/Tags">Tags</a>
     <ul id="all-tags = ['Photography']">
-      {{ range $name, $taxonomy := .Site.Taxonomies.tags = ['Photography'] }}
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
         <li><a href="{{ "/tags = ['Photography']/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
       {{ end }}
     </ul>

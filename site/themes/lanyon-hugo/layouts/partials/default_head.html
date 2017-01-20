@@ -14,7 +14,7 @@
         <div class="container">
           <h3 class="masthead-title">
 						{{ $baseurl := .Site.BaseURL }}
-						{{ $fullurl := print ( .RelPermalink | replaceRE "/post" "" | replaceRE "[^/]+/$" "") }}
+						{{ $fullurl := print ( .RelPermalink | replaceRE "/blog" "" | replaceRE "[^/]+/$" "") }}
 						  <a href="/" class="crumb">Vincent Filby</a>
 							<small>/</small>
 							<a href="/post" class="crumb">Blog</a>

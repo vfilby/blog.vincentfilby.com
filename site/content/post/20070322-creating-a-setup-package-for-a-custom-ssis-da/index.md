@@ -1,7 +1,8 @@
 +++
 title = "Creating a Setup Package for a Custom SSIS Data Flow Component"
 date = "2007-03-22T22:57:00Z"
-tags = []
+tags = ['Code', 'SQL']
+categories = ['Technology']
 +++
 
 ## SQL Server's Pipeline Components Folder

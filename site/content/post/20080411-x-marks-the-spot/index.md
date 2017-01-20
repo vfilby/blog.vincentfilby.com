@@ -1,7 +1,7 @@
 +++
 title = "X markiert die Stelle"
 date = "2008-04-11"
-tags = ['Adventure', 'Travel']
+tags = ['Adventure', 'Travel', 'Stories']
 +++
 
 The last time that I can remember being hopelessly lost was absconding from the scene of a police-crashed bush party. That's another story from my youth though, this one takes place while hiking through the Valley of Fire in the Nevada desert.

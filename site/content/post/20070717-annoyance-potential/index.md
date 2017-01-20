@@ -1,7 +1,7 @@
 +++
 title = "Annoyance Potential"
 date = "2007-07-17T22:41:00Z"
-tags = []
+tags = ['Rants']
 +++
 
 Anyone like me who is in the process of completing a masters (or Ph.D.) thesis

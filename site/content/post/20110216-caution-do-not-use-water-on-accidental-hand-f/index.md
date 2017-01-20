@@ -1,7 +1,7 @@
 +++
 title = "Caution: do not use water on accidental hand-fires..."
 date = "2011-02-16T02:36:00Z"
-tags = ['laughs']
+tags = ['Humour']
 +++
 
 ... instead wave "Hi!"

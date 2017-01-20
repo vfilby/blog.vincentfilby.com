@@ -6,12 +6,10 @@
     <ul>
     {{ $data := .Data }}
     {{ range $key, $value := .Data.Terms.ByCount }}
-      <li><a href="{{ $value.Name | urlize}}">{{ $value.Name }}</a> {{ $value.Count }}</li>
+      <li><a href="{{ $value.Name | urlize}}">{{ title $value.Name }}</a> {{ $value.Count }}</li>
     {{ end }}
     </ul>
   </div>
 </section>
-
-
 
 {{ partial "default_foot.html" . }}

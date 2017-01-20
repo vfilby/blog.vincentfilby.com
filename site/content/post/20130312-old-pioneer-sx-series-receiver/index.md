@@ -1,7 +1,7 @@
 +++
 title = "Old Pioneer SX series Receiver"
 date = "2013-03-12T03:24:18Z"
-tags = []
+tags = ['DIY']
 +++
 
 I loved the old Pioneer SX vintage receivers, they were sounded great, were

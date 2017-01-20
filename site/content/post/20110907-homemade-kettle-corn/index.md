@@ -1,7 +1,7 @@
 +++
 title = "Homemade Kettle Corn"
 date = "2011-09-07T04:57:00Z"
-tags = ['recipes', 'food']
+tags = ['Recipes', 'Food']
 +++
 
 ![]({{< localresource "photo.jpg" >}})

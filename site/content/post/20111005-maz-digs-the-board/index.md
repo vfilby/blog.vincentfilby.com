@@ -1,7 +1,7 @@
 +++
 title = "Maz digs the 'board"
 date = "2011-10-05T03:36:44Z"
-tags = []
+tags = ['Maz']
 +++
 
 [Download p187.mov](https://phaven-

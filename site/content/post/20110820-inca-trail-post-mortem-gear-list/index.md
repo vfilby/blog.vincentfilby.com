@@ -1,7 +1,7 @@
 +++
 title = "Inca Trail Post Mortem & Gear List"
 date = "2011-08-20T02:20:00Z"
-tags = ['Peru', 'hiking', 'travel']
+tags = ['Peru', 'Hiking', 'Travel']
 arcs = ['Peru 2011']
 +++
 

@@ -1,7 +1,7 @@
 +++
 title = "First Foray Into Underwater Photography"
 date = "2013-04-08T17:09:57Z"
-tags = ['travel']
+tags = ['Travel', 'Curcao', 'Photography']
 +++
 
 On a recent trip to Curaao I tried my hand at underwater photography and

@@ -1,7 +1,7 @@
 +++
 title = "Go CRTC!"
 date = "2013-06-03T19:26:59Z"
-tags = []
+tags = ['Canada']
 +++
 
 ... is one of the many things that I never thought I'd say. But, it looks

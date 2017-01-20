@@ -2,13 +2,14 @@
 
 <div class="post">
 	<h1 class="post-title">{{ .Title }}</h1>
-	<span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
+	<span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ .Date.Format .Site.Params.DateForm }}
 	<span class="post-tags">
 		<ul class="tags">
 			{{ range .Params.tags }}
-				<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+				<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><i class="fa fa-tag" aria-hidden="true"></i> {{ . }}</a></li>
 			{{ end }}
 		</ul>
+	</span>
 	</span>
 	
 	{{ $page_link := .Permalink }}

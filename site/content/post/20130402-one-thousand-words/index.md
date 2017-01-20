@@ -1,7 +1,7 @@
 +++
 title = "One Thousand Words"
 date = "2013-04-02T20:59:09Z"
-tags = ['photography', 'Toastmasters']
+tags = ['Photography', 'Toastmasters']
 +++
 
 My second Toastmasters speech for the project "Organize Your Speech." This

@@ -1,7 +1,7 @@
 +++
-title = "Handcrafted Christmas card for my Ganesh loving wife"
+title = "Handcrafted Ganesha Christmas Card"
 date = "2011-12-29T02:46:10Z"
-tags = []
+tags = ['Interfaith']
 +++
 
 [

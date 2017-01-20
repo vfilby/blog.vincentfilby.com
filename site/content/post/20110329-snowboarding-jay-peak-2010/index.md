@@ -2,6 +2,7 @@
 title = "Snowboarding Jay Peak 2010"
 date = "2011-03-29T02:38:00Z"
 tags = ['Snowboarding', 'Travel', 'Sports']
+arcs = ['Jay Peak 2010']
 +++
 
 Awesome surprise trip to Jay Peak. Three days of boarding, more than 20" of

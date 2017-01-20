@@ -1,7 +1,7 @@
 +++
 title = "Jim's Top Tips"
 date = "2011-08-27T18:58:00Z"
-tags = ['Peru', 'travel', 'Inca Trail']
+tags = ['Peru', 'Travel', 'Inca Trail']
 arcs = ['Peru 2011']
 +++
 

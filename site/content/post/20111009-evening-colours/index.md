@@ -1,7 +1,7 @@
 +++
 title = "Evening Colours"
 date = "2011-10-09T21:06:36Z"
-tags = ['photography']
+tags = ['Photography']
 +++
 
 I can't say much... spoilers.

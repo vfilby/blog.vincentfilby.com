@@ -1,6 +1,6 @@
 +++
 title = "Stranded."
-tags = []
+tags = ['Stories']
 date = "2007-11-15"
 description = "... I ransacked the inside of the vehicle looking for something, anything to help me out of my bind. No coat, no spare keys, no phone, no mystical door opening gnome. I did, however, found some duck tape, a pair of pliers and a small screw drivers. None of which could be considered helpful unless I was to channel McGyver."
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Sans iPod Integration"
 date = "2007-07-07"
-tags = []
+tags = ['DIY']
 categories = []
 arcs = ['Panasonic iPod Integration']
 +++

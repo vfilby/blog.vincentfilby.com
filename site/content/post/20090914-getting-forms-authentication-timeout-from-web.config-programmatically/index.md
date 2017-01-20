@@ -1,7 +1,7 @@
 +++
 title = "Getting Forms Authentication Timeout from web.config programmatically"
 date = "2009-09-14"
-tags = ['Programming']
+tags = ['Programming', 'Code']
 category = ['Tech']
 +++
 

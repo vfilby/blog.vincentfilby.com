@@ -1,7 +1,7 @@
 +++
 title = "How To Do Precisely the Right Things At All Possible Times"
 date = "2007-03-16T04:53:00Z"
-tags = []
+tags = ['Education', 'Talks']
 +++
 
 If you liked Freakonomics, The Tipping Point or Blink you should probably

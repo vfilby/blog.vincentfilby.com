@@ -1,6 +1,8 @@
 +++
 title = "Parsing Incomplete or Malformed URLs with Regular Expressions"
 date = "2006-09-03"
+categories = ['Technology']
+tags = ['Code', 'Regular Expressions']
 +++
 
 This is part 1 of a two part article on url handling. Part 2 will talk about normalizing and joining urls (a link will be posted when it is up).

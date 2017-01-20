@@ -1,7 +1,7 @@
 +++
 title = "PHP Snippet: Bring Selected Tab Forward"
 date = "2006-05-28"
-tags = []
+tags = ['PHP']
 category = ['Tech']
 arcs = ['Filefolder Tabs']
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Nearly Holey."
 date = "2008-04-16"
-tags = ['Adventures']
+tags = ['Adventures', 'Stories']
 +++
 
 ![]({{< localresource "2421172962_9a4332452f_m.jpg" >}})

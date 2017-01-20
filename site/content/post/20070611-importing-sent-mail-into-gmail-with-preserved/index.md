@@ -1,7 +1,8 @@
 +++
 title = "Importing Sent Mail Into Gmail With Preserved Dates"
 date = "2007-06-11T04:51:00Z"
-tags = []
+tags = ['Code']
+categories = ['Technology']
 +++
 
 There are many sites out there dedicated to importing your email into gmail,

@@ -34,10 +34,11 @@ I am a photographer that loves to reframe the mundane in ways to twist the mind.
 			
 				<h1 class="blog-title">Vincent Filby</h1>
 				<h2 class="blog-description">I am a techie; I have worked for small 2 person startups and I have worked for the tech giants.   I am a photographer that loves to reframe the mundane in ways to twist the mind.</h2>
-				<a class='btn first'>Take a tour</a>
-				<a class='btn postlink' item='General Geekery'>General Geekery</a>
+				<a class='btn postlink' item='About Me'>About Me</a>
+				<a class='btn postlink' item='Blog'>Blog</a>
+				<a class='btn postlink' item='Projects'>Projects</a>
 				<a class='btn postlink' item='Photography'>Photography</a>
-				<a class='btn last'>Cut to the chase</a><br>
+				<a class='btn last'>Contact Info</a><br>
 				<i id='header-arrow' class="icon-angle-down"></i>
 			</div>
 		</div>
@@ -49,18 +50,9 @@ I am a photographer that loves to reframe the mundane in ways to twist the mind.
 
 		<div class='fixed-nav'></div>
 
+
 		<div class='post-holder'>
 			<article class="post first">
-				<header class="post-header">
-					<h2 class="post-title">Me</h2>
-				</header>
-				<section class="post-content"></section>
-			</article>
-		</div>
-
-	
-		<div class='post-holder'>
-			<article class="post">
 				<header class="post-header">
 					<h2 class="post-title">About Me</h2>
 				</header>
@@ -84,8 +76,25 @@ I am a photographer that loves to reframe the mundane in ways to twist the mind.
 
 						<p><img class="companies" src="/content/images/companies.png" /></p>
 					</p>
-					
-					<h3>Recent Blog Posts</h3>
+				</section>
+			</article>
+		</div>
+		
+		<div class='post-holder'>
+			<article class="post">
+				<header class="post-header">
+					<h2 class="post-title">Me</h2>
+				</header>
+				<section class="post-content"></section>
+			</article>
+		</div>
+
+		<div class='post-holder'>
+			<article class="post">
+				<header class="post-header">
+					<h2 class="post-title"><a href="/post">Blog</a></h2>
+				</header>
+				<section class="post-content">
 					<ul class="recent-posts">
 						{{ range first 5 (where .Site.Pages "Section" "post") }}
 							<li>

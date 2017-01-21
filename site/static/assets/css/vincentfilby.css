@@ -77,19 +77,6 @@ img.companies {
 	color: #aaa;
 }
 
-#ph-about-me .recent-posts .date::before {
-	font-family: FontAwesome;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 1em;
-	display: inline-block;
-	text-decoration: inherit;
-	padding-left: .5em;
-	padding-right: .2em;
-	content: '\f133';
-
-}
-
 
 #ph-blog {
   background: url(../../content/images/map.jpg) no-repeat center center; 
@@ -111,6 +98,19 @@ img.companies {
 	font-family: "Droid Serif", serif;
 	font-weight: 400;
 	font-size: 3rem;
+}
+
+#ph-blog .recent-posts .date::before {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	display: inline-block;
+	text-decoration: inherit;
+	padding-left: .5em;
+	padding-right: .2em;
+	content: '\f133';
+
 }
 
 

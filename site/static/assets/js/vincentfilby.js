@@ -17,10 +17,10 @@
 				// Put together our final background position
 				var coords = '50% ' + yPos + 'px';
 
-				// Move the background
-				$bgobj.css({
-					backgroundPosition: coords
-				});
+				// // Move the background
+				// $bgobj.css({
+				// 	backgroundPosition: coords
+				// });
 			}
 		});
 	});

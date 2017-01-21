@@ -1,0 +1,23 @@
+{{ partial "default_head.html" . }}
+
+
+
+<section id="main">
+  <div>
+    <h1 id="title">Posts In Category: {{ .Title }}</h1>
+    <ul>
+    {{ $data := .Data }}
+
+    {{ range .Data.Pages }}
+			{{ $page := . }}
+			<li class="relatedPost">
+				<a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a>
+			</li>
+    {{ end }}
+    </ul>
+  </div>
+</section>
+
+
+
+{{ partial "default_foot.html" . }}

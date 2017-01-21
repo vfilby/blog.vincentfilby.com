@@ -1,0 +1,428 @@
++++
+title = "Thamesville 1925"
+type = "pages"
+layout = "plain"
++++
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Thamesville 1925 - Vincent Filby</title>
+	
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/5aa9459d83.js"></script>
+	
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.5.2/mapbox.css' rel='stylesheet' />
+
+	
+	<link href="/assets/css/thamesville1925.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/assets/css/magnific-popup.css"> 
+
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+
+
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */``
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-top: 0;
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+	
+	.jumbotron {
+	  background: #793e3a; /* Old browsers */
+	  background: -moz-linear-gradient(45deg, #3c6a8a 0%, #7e6494 76.49%); /* FF3.6+ */
+	  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#3c6a8a), color-stop(76.49%,#7e6494)); /* Chrome,Safari4+ */
+	  background: -webkit-linear-gradient(45deg, #3c6a8a 0%, #7e6494 76.49%); /* Chrome10+,Safari5.1+ */
+	  background: -o-linear-gradient(45deg, #3c6a8a 0%, #7e6494 76.49%); /* Opera 11.10+ */
+	  background: -ms-linear-gradient(445deg, #3c6a8a 0%, #7e6494 76.49%); /* IE10+ */
+	  background: linear-gradient(45deg, #3c6a8a 0%, #7e6494 76.49%); /* W3C */
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c6a8a', endColorstr='#7e6494',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+	
+	.jumbotron:after {
+		background: url(/assets/img/map_inverted.jpg) repeat center center;
+	}
+	
+	.masthead .btn {
+	  padding: 11px 19px;
+	}
+	
+	.masthead .btn [class^="icon-"] {
+	  margin-top: 7px;
+	}
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: fixed;
+      z-index: 1035;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+    }
+
+    .navbar  {
+      margin-bottom: 0;
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.5);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.5);
+              box-shadow: 0 2px 10px rgba(0,0,0,.5);
+			  
+      -webkit-border-radius: 0 0 4px 4px;
+         -moz-border-radius: 0 0 4px 4px;
+              border-radius: 0 0 4px 4px;
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+	.masthead {
+		padding-top: 110px;
+		padding-bottom: 60px;
+	}
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4, .marketing .span4 p, .marketing .marketing-byline {
+      text-align: center;
+    }
+	.marketing .marketing-byline.left {
+	  text-align: left;
+      margin-top: -50px;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+	.marketing p, .hero-unit {
+	  text-align: left;
+	}
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+	  text-align: left;
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+	  margin-bottom: 60px !important;
+    }
+	
+	.thumbnail > img {
+	  margin: 0 auto;
+	}
+	
+	h3 sup {
+		font-size: 13px;
+		font-weight: normal;
+	}
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+		.navbar-wrapper {
+          position: relative;
+		  margin-top: 20px;
+		}
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+	
+	div.center {
+		width: 450px;
+		height: 260px;
+		text-align: center;
+	}
+	
+	div.center h2 {
+		display: block;
+		margin: 0;
+	}
+	
+	div.center h2 img {
+		display: block;
+		margin: 0 auto;
+		padding: 20px;
+	}
+	
+	.ilightbox-dialogue .ilightbox-container, .ilightbox-dialogue .ilightbox-inner-toolbar {
+		width: auto !important;
+		height: auto !important;
+	}
+	
+	.dialogue {
+		min-width: 200px;
+		max-width: 600px;
+		max-height: 400px;
+		padding: 20px;
+		padding-top: 20px;
+	}
+	
+	.dialogue .btn {
+		float: right;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	
+	/* Slidshow button styles */
+	a.slideshow_button {
+		display: none;
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 35px;
+		padding: 14px 30px;
+		margin: auto;
+		cursor: pointer;
+		font-size: 22px;
+		z-index: 100001;
+		width: 140px;
+	}
+	
+	html.win .ilightbox-noscroll, html.win .ilightbox-noscroll .navbar-wrapper {
+		padding-right: 17px;
+	}
+	
+	html.linux .ilightbox-noscroll, html.linux .ilightbox-noscroll .navbar-wrapper {
+		padding-right: 13px;
+	}
+    </style>
+	<!--[if IE 7]>
+    <style>
+	.jumbotron {
+	  background: #47263C url(assets/img/bs-docs-masthead-pattern.png) repeat center center;
+	  filter: none;
+	}
+	
+    .navbar-wrapper {
+      width: 100%;
+    }
+    </style>
+	<![endif]-->
+	
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link rel="apple-touch-icon" href="assets/ico/57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/114.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/ico/144.png" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+
+
+	<div class="jumbotron masthead" id="home">
+	  <div class="container">
+	    <h1>Thamesville 1925</h1>
+	    <p>A detailed surveyor's map from 1925 annotated by local historians.</p>
+	    <p>
+	      <a href="#themap" class="btn btn-primary btn-large">The map.</a>
+	      <a href="#how" class="btn btn-info btn-large">How it was made.</a>
+	      <a href="#dataaccess" class="btn btn-success btn-large">Data access.</a>
+	    </p>
+	  </div>
+	</div>
+
+<style>
+		.bigone {
+			text-align: center;
+			margin-bottom: 80px;
+		}
+		.bigone h2 {
+			text-transform: uppercase;
+		}
+		.bigone img {
+			margin: 0 auto;
+		}
+	</style>
+
+	<div class="container">
+	<hr class="featurette-divider" id="themap">
+		<div class="featurette">
+			<h2 class="featurette-heading">The map</h1>
+
+<div id='map' class="mfp-hide"></div>
+<a id="map-overlay" class="btn btn-primary btn-large map-overlay">The map.</a>
+<script>
+var myCrs = L.Util.extend({}, L.CRS, {
+    projection: L.Projection.LonLat,
+    transformation: new L.Transformation(1, 0, 1, 0)
+});
+
+var map = L.map('map', {
+  minZoom: 2,
+  maxZoom: 7,
+});
+var thamesvilleLayer = L.tileLayer('http://tiles.thamesville1925.vincentfilby.com/v2/thamesville_1925/{z}/{x}/{y}.png', {
+  attribution: 'Map tiles by <a href="http://vincentfilby.com">Vincent Filby</a>',
+  noWrap: true
+}).addTo(map);
+map.setView([0.5, 0.5], 2);
+map.addControl(L.mapbox.shareControl());
+</script>
+		
+		<hr class="featurette-divider" id="how">
+		<div class="featurette">
+			<h2 class="featurette-heading">How it was made</h1>
+			
+			<div class="row-fluid">
+			<div class="span6">
+				<h2>Photography</h2>
+			</div>
+			<div class="span6">
+				<h2>Programming</h2>
+			
+			</div>
+			</div>
+			
+		</div>
+		
+	<hr class="featurette-divider" id="dataaccess">
+		<div class="featurette">
+			<h2 class="featurette-heading">Data access</h1>
+			<p>There is a lot of data here:
+			<ul>
+			<li>89 images from a 15MP dSLR</li>
+			<li>each map with all the stitching data and masking is around 1.5GB</li>
+			<li>over 800MB of 256x256 tiles</li>
+			<li>A compressed JPEG of the map totals 50MB</li>
+			</ul>
+			So I don't offer direct downloads for the source images.  If you want the images contact me and we can arrange something.</p>
+		</div>
+		
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#home">Back to top</a></p>
+        <p align="left">&copy; 2012 <a href="http://www.vincentfilby.com/">Vincent Filby</a> - <a href="https://plus.google.com/+VinceFilby" rel="author">Google+</a>, <a href="https://twitter.com/vfilby">Twitter</a>.</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+		<script src="/assets/js/jquery.magnific-popup.min.js"></script> 
+		<script type="text/javascript">
+			$(document).ready( function() {
+				$('.map-overlay').magnificPopup({
+					type: 'inline'
+				});
+				
+
+			});
+		</script>
+  </body>
+</html>

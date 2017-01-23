@@ -1,0 +1,2 @@
+{{ $path := .Get 0 | printf "content/%s%s" .Page.File.Dir  }}
+{{ readFile $path | safeHTML}}

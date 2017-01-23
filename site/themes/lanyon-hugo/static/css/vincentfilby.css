@@ -18,3 +18,10 @@ div.arc h2 {
 div.arc ul {
 	margin: 0;
 }
+
+pre {
+	word-break: normal;
+	word-wrap: normal;
+	overflow: scroll;
+	width: 900px;
+}

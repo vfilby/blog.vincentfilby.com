@@ -1,0 +1,174 @@
+<pre><font color="#8B2252"><b>\def\fileversion</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">1.0</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\def\filedate</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">2001/05/19</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\def\docdate</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">2001/05/19</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \changes{v1.0}{19 May 200}{First Release}</i></font><font color="#000000">
+</font><font color="#36648B"><i>%</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \MakeShortVerb{\|}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \title{Cross-referencing technical Documents with \texttt{crossreference}}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \author{Vince Filby}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \maketitle</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \begin{abstract}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% This is the instruction manual for using</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \texttt{crossreference}.</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \end{abstract}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% </i></font><font color="#000000">
+</font><font color="#36648B"><i>% \section{Introduction}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% This package allows authors to maintain a crossreference section in technical </i></font><font color="#000000">
+</font><font color="#36648B"><i>% documents easily and efficiently without having to worry about reordering, </i></font><font color="#000000">
+</font><font color="#36648B"><i>% removing or otherwise altering the crossreference numbers because they are </i></font><font color="#000000">
+</font><font color="#36648B"><i>% automatically generated.</i></font><font color="#000000">
+</font><font color="#36648B"><i>% </i></font><font color="#000000">
+</font><font color="#36648B"><i>% This package was originally designed to maintain the crossreference section</i></font><font color="#000000">
+</font><font color="#36648B"><i>% of software requirements document and a software design document.</i></font><font color="#000000">
+</font><font color="#36648B"><i>%</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \section{Documentation Driver}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% This code will generate the documentation.  Since</i></font><font color="#000000">
+</font><font color="#36648B"><i>% it is the first peice of code in this file, the documentation</i></font><font color="#000000">
+</font><font color="#36648B"><i>% can obtained by simply processing this file with \LaTeXe</i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \begin{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>%&lt;*driver&gt;</i></font><font color="#000000">
+</font><font color="#8B2252"><b>\documentclass</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">ltxdoc</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\EnableCrossrefs
+\CodelineIndex
+\RecordChanges
+\begin</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">document</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000">        </font><font color="#8B2252"><b>\DocInput</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">crossreference.dtx</font><font color="#27408B"><b>}</b></font><font color="#000000">    </font><font color="#8B2252"><b>\PrintIndex</b></font><font color="#000000">   </font><font color="#8B2252"><b>\PrintChanges
+\end</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">document</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#36648B"><i>%&lt;/driver&gt;</i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \end{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \section{User Interface}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% This section defines everything that an average user should know.</i></font><font color="#000000">
+</font><font color="#36648B"><i>% </i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \begin{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>%&lt;*crossreference&gt;</i></font><font color="#000000">
+</font><font color="#8B2252"><b>\NeedsTeXFormat</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">LaTeX2e</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\ProvidesPackage</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">crossreference</font><font color="#27408B"><b>}</b></font><font color="#27408B"><b>[</b></font><font color="#27408B">\filedate\space\fileversion\space </font><font color="#8B2252"><b>
+</b></font><font color="#000000">Crossreferencing for technical documents (V. Filby)]
+</font><font color="#8B2252"><b>\newcounter</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">xref</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#36648B"><i>%    \end{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \DescribeMacro{\crossreferences}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% The command|\crossreferences| will print out the crossreference table.</i></font><font color="#000000">
+</font><font color="#36648B"><i>% The format is simple and uses the "list of figures" table of contents style.</i></font><font color="#000000">
+</font><font color="#36648B"><i>% You can change the format of the table by changing this macro.   If you</i></font><font color="#000000">
+</font><font color="#36648B"><i>% choose to use a tabular format you will have to change the output lines</i></font><font color="#000000">
+</font><font color="#36648B"><i>% to include \&'s.   </i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \begin{macrocode}</i></font><font color="#000000">
+</font><font color="#8B2252"><b>\newcommand\crossreferences</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">%
+  </font><font color="#8B2252">\if@twocolumn</font><font color="#27408B">
+    </font><font color="#8B2252">\@</font><font color="#27408B">restonecoltrue</font><font color="#8B2252">\onecolumn</font><font color="#27408B">
+  </font><font color="#8B2252">\else</font><font color="#27408B">
+    </font><font color="#8B2252">\@</font><font color="#27408B">restonecolfalse
+  </font><font color="#8B2252">\fi</font><font color="#27408B">
+  </font><font color="#8B2252">\@</font><font color="#27408B">starttoc</font><font color="#27408B">{xref}</font><font color="#27408B">
+  </font><font color="#8B2252">\if@restonecol\twocolumn\fi</font><font color="#27408B">
+</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#36648B"><i>%    \end{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% </i></font><font color="#000000">
+</font><font color="#36648B"><i>% \DescribeMacro{\addxref}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% The command |\addxref| will add a a line to the crossreference</i></font><font color="#000000">
+</font><font color="#36648B"><i>% table containing the number, label and section label.</i></font><font color="#000000">
+</font><font color="#36648B"><i>% </i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \begin{macrocode}</i></font><font color="#000000">
+</font><font color="#8B2252"><b>\newcommand</b></font><font color="#27408B"><b>{</b></font><font color="#8B2252">\addxref</font><font color="#27408B"><b>}</b></font><font color="#27408B"><b>[</b></font><font color="#27408B">1</font><font color="#27408B"><b>]</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">%
+  </font><font color="#8B2252">\protected@write</font><font color="#27408B">{\@auxout}{}{\protect\@writefile</font><font color="#27408B">{xref}{
+    \string\contentsline</font><font color="#27408B">{figure}{\string\numberline </font><font color="#27408B">{\thexref}{\string\ignorespaces{#1}</font><font color="#27408B">}</font><font color="#27408B">}{\@currentlabel}</font><font color="#27408B">
+  }</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000">  </font><font color="#8B2252"><b>\xreflabel</b></font><font color="#27408B"><b>{</b></font><font color="#27408B"><b>#1</b></font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000">  </font><font color="#8B2252"><b>\stepcounter</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">xref</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000"><b>}</b></font><font color="#000000">
+</font><font color="#36648B"><i>%    \end{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>%</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \DescribeMacro{\xref} </i></font><font color="#000000">
+</font><font color="#36648B"><i>% The command |\xref| can be used to refer to an item that has been </i></font><font color="#000000">
+</font><font color="#36648B"><i>% added to the crossreference table. </i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \begin{macrocode}</i></font><font color="#000000">
+</font><font color="#8B2252"><b>\newcommand</b></font><font color="#27408B"><b>{</b></font><font color="#8B2252">\xref</font><font color="#27408B"><b>}</b></font><font color="#27408B"><b>[</b></font><font color="#27408B">1</font><font color="#27408B"><b>]</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">~[REF </font><font color="#8B2252">\pageref</font><font color="#27408B">{#1}</font><font color="#27408B">]</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#36648B"><i>%    \end{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>%</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \section{Definitions}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% This section contains the internal counters and macros that are used</i></font><font color="#000000">
+</font><font color="#36648B"><i>% to keep track of the crossreference labels. </i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \begin{macrocode}</i></font><font color="#000000">
+</font><font color="#8B2252"><b>\def\G@refundefinedtrue</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">%
+  </font><font color="#8B2252">\gdef\@</font><font color="#27408B">refundefined</font><font color="#27408B">{%
+    \@latex@warning@no@line</font><font color="#27408B">{There were undefined references}</font><font color="#27408B">}</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\let\@</b></font><font color="#000000">refundefined</font><font color="#8B2252"><b>\relax
+
+\def\@</b></font><font color="#000000">setref</font><font color="#27408B"><b>#1#2#3</b></font><font color="#000000"><b>{</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+  </font><font color="#8B2252"><b>\ifx</b></font><font color="#27408B"><b>#1</b></font><font color="#8B2252"><b>\relax
+</b></font><font color="#000000">   </font><font color="#8B2252"><b>\protect\G@refundefinedtrue
+</b></font><font color="#000000">   </font><font color="#8B2252"><b>\nfss@text</b></font><font color="#27408B"><b>{</b></font><font color="#8B2252">\reset@font\bfseries</font><font color="#27408B"> ??</font><font color="#27408B"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+   </font><font color="#8B2252"><b>\@</b></font><font color="#000000">latex</font><font color="#8B2252"><b>@warning</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Reference `</font><font color="#27408B"><b>#3</b></font><font color="#27408B">' on page </font><font color="#8B2252">\thepage</font><font color="#27408B"> </font><font color="#8B2252">\space</font><font color="#27408B">
+             undefined</font><font color="#27408B"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+  </font><font color="#8B2252"><b>\else
+</b></font><font color="#000000">   </font><font color="#8B2252"><b>\expandafter</b></font><font color="#27408B"><b>#2#1</b></font><font color="#8B2252"><b>\null
+</b></font><font color="#000000">  </font><font color="#8B2252"><b>\fi</b></font><font color="#000000"><b>}</b></font><font color="#000000">
+
+</font><font color="#8B2252"><b>\def\ref</b></font><font color="#27408B"><b>#1</b></font><font color="#000000"><b>{</b></font><font color="#8B2252"><b>\expandafter\@</b></font><font color="#000000">setref</font><font color="#8B2252"><b>\csname</b></font><font color="#000000"> r@</font><font color="#27408B"><b>#1</b></font><font color="#8B2252"><b>\endcsname\@</b></font><font color="#000000">firstoftwo</font><font color="#000000"><b>{</b></font><font color="#27408B"><b>#1</b></font><font color="#000000"><b>}}</b></font><font color="#000000">
+
+</font><font color="#8B2252"><b>\def\pageref</b></font><font color="#27408B"><b>#1</b></font><font color="#000000"><b>{</b></font><font color="#8B2252"><b>\expandafter\@</b></font><font color="#000000">setref</font><font color="#8B2252"><b>\csname</b></font><font color="#000000"> r@</font><font color="#27408B"><b>#1</b></font><font color="#8B2252"><b>\endcsname
+</b></font><font color="#000000">                                   </font><font color="#8B2252"><b>\@</b></font><font color="#000000">secondoftwo</font><font color="#000000"><b>{</b></font><font color="#27408B"><b>#1</b></font><font color="#000000"><b>}}</b></font><font color="#000000">
+</font><font color="#8B2252"><b>\def\@</b></font><font color="#000000">newl</font><font color="#8B2252"><b>@bel</b></font><font color="#27408B"><b>#1#2#3</b></font><font color="#000000"><b>{</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+  </font><font color="#8B2252"><b>\@</b></font><font color="#000000">ifundefined</font><font color="#000000"><b>{</b></font><font color="#27408B"><b>#1</b></font><font color="#000000">@</font><font color="#27408B"><b>#2</b></font><font color="#000000"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+    </font><font color="#8B2252"><b>\relax
+</b></font><font color="#000000">    </font><font color="#000000"><b>{</b></font><font color="#8B2252"><b>\gdef</b></font><font color="#000000"> </font><font color="#8B2252"><b>\@</b></font><font color="#000000">multiplelabels </font><font color="#000000"><b>{</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+       </font><font color="#8B2252"><b>\@</b></font><font color="#000000">latex</font><font color="#8B2252"><b>@warning@no@line</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">There were multiply-defined labels</font><font color="#27408B"><b>}</b></font><font color="#000000"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+     </font><font color="#8B2252"><b>\@</b></font><font color="#000000">latex</font><font color="#8B2252"><b>@warning@no@line</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Label `</font><font color="#27408B"><b>#2</b></font><font color="#27408B">' multiply defined</font><font color="#27408B"><b>}</b></font><font color="#000000"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+  </font><font color="#8B2252"><b>\global\@</b></font><font color="#000000">namedef</font><font color="#000000"><b>{</b></font><font color="#27408B"><b>#1</b></font><font color="#000000">@</font><font color="#27408B"><b>#2</b></font><font color="#000000"><b>}{</b></font><font color="#27408B"><b>#3</b></font><font color="#000000"><b>}}</b></font><font color="#000000">
+
+</font><font color="#8B2252"><b>\def\newlabel</b></font><font color="#27408B"><b>{</b></font><font color="#8B2252">\@</font><font color="#27408B">newl</font><font color="#8B2252">@bel</font><font color="#27408B"> r</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\@</b></font><font color="#000000">onlypreamble</font><font color="#8B2252"><b>\@</b></font><font color="#000000">newl</font><font color="#8B2252"><b>@bel
+
+\let</b></font><font color="#000000"> </font><font color="#8B2252"><b>\@</b></font><font color="#000000">multiplelabels </font><font color="#8B2252"><b>\relax
+
+\def\xreflabel</b></font><font color="#27408B"><b>#1</b></font><font color="#000000"><b>{</b></font><font color="#8B2252"><b>\@</b></font><font color="#000000">bsphack
+  </font><font color="#8B2252"><b>\protected@write\@</b></font><font color="#000000">auxout</font><font color="#000000"><b>{}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+         </font><font color="#000000"><b>{</b></font><font color="#8B2252"><b>\string\newlabel</b></font><font color="#27408B"><b>{</b></font><font color="#27408B"><b>#1</b></font><font color="#27408B"><b>}{</b></font><font color="#27408B">{#1}{\thexref}</font><font color="#27408B"><b>}</b></font><font color="#000000"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+  </font><font color="#8B2252"><b>\@</b></font><font color="#000000">esphack</font><font color="#000000"><b>}</b></font><font color="#000000">
+
+</font><font color="#8B2252"><b>\def\refstepcounter</b></font><font color="#27408B"><b>#1</b></font><font color="#000000"><b>{</b></font><font color="#8B2252"><b>\stepcounter</b></font><font color="#27408B"><b>{</b></font><font color="#27408B"><b>#1</b></font><font color="#27408B"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+    </font><font color="#8B2252"><b>\protected@edef\@</b></font><font color="#000000">currentlabel
+       </font><font color="#000000"><b>{</b></font><font color="#8B2252"><b>\csname</b></font><font color="#000000"> p@</font><font color="#27408B"><b>#1</b></font><font color="#8B2252"><b>\endcsname\csname</b></font><font color="#000000"> the</font><font color="#27408B"><b>#1</b></font><font color="#8B2252"><b>\endcsname</b></font><font color="#000000"><b>}</b></font><font color="#36648B"><i>%</i></font><font color="#000000">
+</font><font color="#000000"><b>}</b></font><font color="#000000">
+
+</font><font color="#8B2252"><b>\def\@</b></font><font color="#000000">currentlabel</font><font color="#000000"><b>{}</b></font><font color="#000000">
+</font><font color="#36648B"><i>%&lt;/crossreference&gt;</i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \end{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>%</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \section{Example Document}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% This is a sample document to show how to use the crossreference system</i></font><font color="#000000">
+</font><font color="#36648B"><i>% when you unpacked the dtx it should have generated this file called</i></font><font color="#000000">
+</font><font color="#36648B"><i>% xrefexample.tex</i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \begin{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>%&lt;*example&gt;</i></font><font color="#000000">
+</font><font color="#8B2252"><b>\documentclass</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">article</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+
+\usepackage</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">crossreference</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+
+\begin</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">document</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+
+\section</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Animals</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\addxref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Animals</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000">Animals can eat other animals</font><font color="#8B2252"><b>\xref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Animals</font><font color="#27408B"><b>}</b></font><font color="#000000"> or plants</font><font color="#8B2252"><b>\xref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Plants</font><font color="#27408B"><b>}</b></font><font color="#000000">.
+
+</font><font color="#8B2252"><b>\section</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Plants</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\addxref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Plants</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000">Plants are mostly green and are eaten by Animals</font><font color="#8B2252"><b>\xref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Animals</font><font color="#27408B"><b>}</b></font><font color="#000000">.
+
+</font><font color="#8B2252"><b>\section</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Books and Writings</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\addxref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Books and Writings</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000">Books and writings are general not read by animals</font><font color="#8B2252"><b>\xref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Animals</font><font color="#27408B"><b>}</b></font><font color="#000000"> or plants</font><font color="#8B2252"><b>\xref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Plants</font><font color="#27408B"><b>}</b></font><font color="#000000">.
+
+</font><font color="#8B2252"><b>\section</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Humans</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+</b></font><font color="#000000">Humans can read books and writings</font><font color="#8B2252"><b>\xref</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Books and Writings</font><font color="#27408B"><b>}</b></font><font color="#000000">.
+</font><font color="#8B2252"><b>\newpage
+\section</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">Cross-References</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\crossreferences</b></font><font color="#000000"> 
+
+</font><font color="#8B2252"><b>\end</b></font><font color="#27408B"><b>{</b></font><font color="#27408B">document</font><font color="#27408B"><b>}</b></font><font color="#8B2252"><b>
+\endinput
+</b></font><font color="#36648B"><i>%&lt;/example&gt;</i></font><font color="#000000">
+</font><font color="#36648B"><i>%    \end{macrocode}</i></font><font color="#000000">
+</font><font color="#36648B"><i>% \Finale</i></font><font color="#000000">
+</pre>

@@ -1,0 +1,120 @@
+<pre><font color="#000000"><i># Generic LaTeX Makefile.</i></font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># $ID$</i></font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># This makefile is to be specifically used for LaTeX documents only.</i></font><font color="#000000">
+</font><font color="#000000"><i># makeindx and BiBTeX extensions are supported.  </i></font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># To use this makefile you must be using GNU make.  If you are</i></font><font color="#000000">
+</font><font color="#000000"><i># not sure what make is installed ask your system administrator.</i></font><font color="#000000">
+</font><font color="#000000"><i># You can also try running GNU make explicitly by running gmake.</i></font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># REQUIRED FILES, these are common on most linuxy systems.</i></font><font color="#000000">
+</font><font color="#000000"><i>#  - latex</i></font><font color="#000000">
+</font><font color="#000000"><i>#  - bibtex</i></font><font color="#000000">
+</font><font color="#000000"><i>#  - makeindex</i></font><font color="#000000">
+</font><font color="#000000"><i>#  - dvips</i></font><font color="#000000">
+</font><font color="#000000"><i>#  - ps2pdf</i></font><font color="#000000">
+</font><font color="#000000"><i>#  - echo</i></font><font color="#000000">
+</font><font color="#000000"><i>#  - grep</i></font><font color="#000000">
+</font><font color="#000000"><i># </i></font><font color="#000000">
+</font><font color="#000000"><i># Vincent Filby Copyright (c) 2001</i></font><font color="#000000">
+</font><font color="#000000"><i># </i></font><font color="#000000">
+</font><font color="#000000"><i># CONFIGURATION SECTION</i></font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># The base latex program and latex commandline flags</i></font><font color="#000000">
+</font><font color="#27408B">LATEX=latex</font><font color="#000000">
+</font><font color="#27408B">LATEXFLAGS=--interaction=nonstopmode</font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># The BiBTeX extensions.</i></font><font color="#000000">
+</font><font color="#27408B">BIBTEX=bibtex</font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># makeindex</i></font><font color="#000000">
+</font><font color="#27408B">MAKEINDEX=makeindex</font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># DVI to postscript converter, if you are</i></font><font color="#000000">
+</font><font color="#000000"><i># using a different converter you will have to </i></font><font color="#000000">
+</font><font color="#000000"><i># change the syntax in the %.ps rule and the %.all rule.</i></font><font color="#000000">
+</font><font color="#27408B">DVIPS=dvips</font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># Postscript to pdf converter, if you are</i></font><font color="#000000">
+</font><font color="#000000"><i># using a different converter you will have to change</i></font><font color="#000000">
+</font><font color="#000000"><i># the syntax in the %.pdf rule and the %.all rule.</i></font><font color="#000000">
+</font><font color="#27408B">PS2PDF=ps2pdf</font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># Other programs</i></font><font color="#000000">
+</font><font color="#27408B">GREP=grep</font><font color="#000000">
+</font><font color="#27408B">ECHO=echo</font><font color="#000000">
+</font><font color="#000000"><i>#</i></font><font color="#000000">
+</font><font color="#000000"><i># End of CONFIGURATION SECTION</i></font><font color="#000000">
+</font><font color="#8B2252">.PHONY</font><font color="#8B2252">: clean</font><font color="#000000">
+</font><font color="#8B2252">.SUFFIXES</font><font color="#8B2252">:</font><font color="#000000">
+
+</font><font color="#8B2252"><b>all</b></font><font color="#8B2252">:</font><font color="#000000">
+  @echo "Please specify a rule."
+  @echo "Here are the rules using 'file.tex' as an example."
+  @echo " 'file' to run LaTeX"
+  @echo " 'file.bib' to run BiBTeX"
+  @echo " 'file.ind' to run makeindex"
+  @echo " 'file.ps' to generate post-script"
+  @echo " 'file.pdf' to generate portable document format"
+  @echo " 'file.all' to itelligently run LaTeX, makeindex and BiBTeX"
+  @echo " 'clean' to remove temporary, dvi, ps and pdf files" 
+
+</font><font color="#8B2252"><b>%</b></font><font color="#8B2252">: %.tex</font><font color="#000000">
+  </font><font color="#27408B">$(LATEX)</font><font color="#000000"> </font><font color="#0000FF">$*</font><font color="#000000">.tex
+
+</font><font color="#8B2252"><b>%.bib</b></font><font color="#8B2252">: %.aux</font><font color="#000000">
+  </font><font color="#27408B">$(BIBTEX)</font><font color="#000000"> </font><font color="#0000FF">$&lt;</font><font color="#000000">
+
+</font><font color="#8B2252"><b>%.ind</b></font><font color="#8B2252">: %.idx</font><font color="#000000">
+  </font><font color="#27408B">$(MAKEINDEX)</font><font color="#000000"> </font><font color="#0000FF">$*</font><font color="#000000">
+  
+
+</font><font color="#8B2252"><b>%.pdf</b></font><font color="#8B2252">: %.ps</font><font color="#000000">
+  </font><font color="#27408B">$(PS2PDF)</font><font color="#000000"> </font><font color="#0000FF">$&lt;</font><font color="#000000"> </font><font color="#0000FF">$@</font><font color="#000000">
+
+</font><font color="#8B2252"><b>%.ps</b></font><font color="#8B2252">: %.dvi</font><font color="#000000">
+  </font><font color="#27408B">$(DVIPS)</font><font color="#000000"> -f </font><font color="#0000FF">$&lt;</font><font color="#000000"> &gt; </font><font color="#0000FF">$@</font><font color="#000000">
+
+</font><font color="#8B2252"><b>clean</b></font><font color="#8B2252">:</font><font color="#000000">
+  rm -f *.ps *.pdf *.ind *.ilg *.dvi *.xref *.toc</font><font color="#000000"><b>\</b></font><font color="#000000">
+        *.idx *.log *.aux
+
+</font><font color="#000000"><i># This is a special rule which will process the LaTeX</i></font><font color="#000000">
+</font><font color="#000000"><i># files and bibtex or makeindex if necessary.</i></font><font color="#000000">
+</font><font color="#8B2252"><b>%.all</b></font><font color="#8B2252">: %.tex</font><font color="#000000">
+</font><font color="#000000"><i>#  Process the tex file</i></font><font color="#000000">
+  @echo "Processing </font><font color="#0000FF">$&lt;</font><font color="#000000">..."
+  @</font><font color="#27408B">$(LATEX)</font><font color="#000000"> </font><font color="#27408B">$(LATEXFLAGS)</font><font color="#000000"> </font><font color="#0000FF">$&lt;</font><font color="#000000"> &gt; /dev/null
+  @echo "================================================================================"
+  @echo "Warnings: see </font><font color="#0000FF">$*</font><font color="#000000">.log for more details"
+  @echo "================================================================================"
+  @grep "Warning" </font><font color="#0000FF">$*</font><font color="#000000">.log
+
+</font><font color="#000000"><i>#  Process index if present</i></font><font color="#000000">
+  </font><font color="#27408B">$(if $(wildcard $*.idx)</font><font color="#000000">, </font><font color="#000000"><b>\</b></font><font color="#000000">
+    @echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "</font><font color="#0000FF">$*</font><font color="#000000">.idx is present --  Generating index."; </font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    </font><font color="#27408B">$(MAKEINDEX)</font><font color="#000000"> </font><font color="#0000FF">$*</font><font color="#000000">;</font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "&gt;&gt;&gt; Re-running LaTeX silently to update index (See </font><font color="#0000FF">$*</font><font color="#000000">.log for errors).";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    </font><font color="#27408B">$(LATEX)</font><font color="#000000"> </font><font color="#27408B">$(LATEXFLAGS)</font><font color="#000000"> </font><font color="#0000FF">$&lt;</font><font color="#000000"> &gt; /dev/null;,</font><font color="#000000"><b>\</b></font><font color="#000000">
+    @echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "</font><font color="#0000FF">$*</font><font color="#000000">.idx is not present -- INDEX NOT GENERATED" </font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+  )
+  
+</font><font color="#000000"><i>#  Process bibtex if present</i></font><font color="#000000">
+  </font><font color="#27408B">$(if $(wildcard $*.bib)</font><font color="#000000">, </font><font color="#000000"><b>\</b></font><font color="#000000">
+    @echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "</font><font color="#0000FF">$*</font><font color="#000000">.bib is present -- Generating bibliography"; </font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    </font><font color="#27408B">$(BIBTEX)</font><font color="#000000"> </font><font color="#0000FF">$*</font><font color="#000000">.bib;</font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "&gt;&gt;&gt; Re-running LaTeX silently to update bibliography (See </font><font color="#0000FF">$*</font><font color="#000000">.log for errors).";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    </font><font color="#27408B">$(LATEX)</font><font color="#000000"> </font><font color="#27408B">$(LATEXFLAGS)</font><font color="#000000"> </font><font color="#0000FF">$&lt;</font><font color="#000000"> &gt; /dev/null;,</font><font color="#000000"><b>\</b></font><font color="#000000">
+    @echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "</font><font color="#0000FF">$*</font><font color="#000000">.bib is not present -- BIBLIOGRAPHY NOT GENERATED"; </font><font color="#000000"><b>\</b></font><font color="#000000">
+    echo "================================================================================";</font><font color="#000000"><b>\</b></font><font color="#000000">
+  )
+</pre>

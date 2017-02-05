@@ -22,7 +22,7 @@
 						  {{ range $index, $element := split $fullurl "/" }}
 						    {{ $.Scratch.Add "path" $element }}
 						      {{ if ne $element "" }}
-						      <a href='{{ $baseurl }}{{ $.Scratch.Get "path" }}'>{{ if isset $.Site.Data.titles . }} {{ index $.Site.Data.titles . }} {{ else }} {{ title . }} {{ end }}</a>
+						      <a href='/{{ $.Scratch.Get "path" }}'>{{ if isset $.Site.Data.titles . }} {{ index $.Site.Data.titles . }} {{ else }} {{ title . }} {{ end }}</a>
 						      {{ $.Scratch.Add "path" "/" }}
 						      {{ end }}
 						  {{ end }}

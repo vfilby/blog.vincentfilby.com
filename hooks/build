@@ -1,0 +1,2 @@
+#!/bin/sh
+docker build --build-arg PROTECTED_ASSET_KEY=$PROTECTED_ASSET_KEY  .

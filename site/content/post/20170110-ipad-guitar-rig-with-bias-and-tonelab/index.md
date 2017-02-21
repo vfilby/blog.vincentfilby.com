@@ -1,7 +1,8 @@
 +++
 title = "Bias FX on an iPad with ToneLab LE"
 date = "2017-01-10"
-tags = ['Music']
+tags = ['Music', 'Bias FX', 'Guitar']
+arcs = ['Bias FX']
 description = "Setting up an electric guitar rig with only an iPad, Bias FX and a Vox Tonelab LE" 
 +++
 It's been awhile since I kept my guitar amps out and ready for use.  Digital sound modelling is pretty good so they sit stowed away in storage and I have been contemplating getting rid of them for years.  

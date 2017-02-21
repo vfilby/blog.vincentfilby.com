@@ -13,6 +13,8 @@ RUN hugo -v -d /usr/share/nginx/html
 
 # Unpack "protected" assets
 WORKDIR /usr/share/hugo/site/static/galleria_themes
+RUN ls
+RUN echo "openssl aes-256-ecb -d -in 9b67726fd76cdb263db0c3e93c88ec68.aes -pass pass:${PROTECTED_ASSET_KEY} | tar xz"
 RUN openssl aes-256-ecb -d -in 9b67726fd76cdb263db0c3e93c88ec68.aes -pass pass:${PROTECTED_ASSET_KEY} | tar xz
 
 EXPOSE 80
